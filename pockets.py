@@ -1,4 +1,5 @@
 import subprocess
+from collections import defaultdict
 
 def run_fpocket(pdb_file):
     # Run fpocket command
@@ -11,18 +12,22 @@ def run_fpocket(pdb_file):
         raise Exception(f"fpocket failed with error: {stderr.decode()}")
 
     # Process the output
-    pockets = []
+    pockets = defaultdict(list)
     lines = stdout.decode().split("\n")
+    current_pocket_id = None
     for line in lines:
         if line.startswith("Pocket"):
-            pocket_id = int(line.split(":")[1].strip())
-            pockets.append(pocket_id)
+            current_pocket_id = int(line.split(":")[1].strip())
+        elif line.startswith("Residue"):
+            residue_info = line.split(":")[1].strip()
+            residue_chain, residue_id = residue_info.split("_")
+            pockets[current_pocket_id].append((residue_chain, residue_id))
 
     return pockets
 
 # Example usage
 pdb_file = "path/to/your/pdb/file.pdb"
 pockets = run_fpocket(pdb_file)
-print(f"Identified {len(pockets)} surface pockets: {pockets}")
-
-# returns a list of pocket IDs identified by fpocket in the PDB file.
+print(f"Identified {len(pockets)} surface pockets:")
+for pocket_id, residues in pockets.items():
+    print(f"Pocket {pocket_id}: Residues {residues}")
