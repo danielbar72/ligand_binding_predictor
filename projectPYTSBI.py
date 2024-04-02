@@ -14,6 +14,7 @@ for model in structure:
                 atoms.append(residue)
             elif residue.id[0][0:2] == 'H_':
                 if len(residue) > 5:  # Check for large HETATM
+                    print(residue.id[0])
                     hetatoms.append(residue)
 print(hetatoms)
 
