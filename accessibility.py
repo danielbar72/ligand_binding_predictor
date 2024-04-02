@@ -27,6 +27,6 @@ solvent_accessibility = extract_solvent_accessibility(pdb_file)
 print(solvent_accessibility)
 
 # returns a dictionary where the keys are tuples (chain_id, residue_number) 
-#and the values are the corresponding solvent accessibilities.
+# and the values are the corresponding solvent accessibilities.
 
 
