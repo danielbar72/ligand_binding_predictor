@@ -59,10 +59,16 @@ def extract_features(pdb_file, ligand_distance):
 
     return features
 
-# Extract labels from the PDB file
-def extract_labels(pdb_file):
-    # Code to extract labels (e.g., binding site annotations) from the PDB file
-    pass
+def extract_labels(residue_id):
+    # Assuming you have a list of known binding site residues
+    known_binding_residues = [...]  # List of residue identifiers in the binding site
+    
+    # Check if the residue is in the known binding site
+    if residue_id in known_binding_residues:
+        return 1  # Binding
+    else:
+        return 0  # Non-binding
+
 
 def prepare_dataset(pdb_files):
     features = []
