@@ -1,0 +1,123 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+from accessibility import extract_solvent_accessibility
+from local_densities import calculate_local_density
+from pockets import run_fpocket
+from neighboring_final import residues_within_distance
+import subprocess
+from collections import defaultdict
+
+def load_pdb_file(file_path):
+    # Code to load and process the PDB file
+    # For example, you can use the Biopython library to parse the PDB file
+    from Bio.PDB import PDBParser
+
+    parser = PDBParser()
+    structure = parser.get_structure("pdb", file_path)
+
+    # Process the structure and extract relevant features
+    # For example, you can extract the coordinates of atoms or residues
+
+    return structure
+
+def extract_features(pdb_file, ligand_distance):
+    # Run fpocket to get pockets
+    pockets = run_fpocket(pdb_file)
+
+    # Get residues within distance of ligand
+    residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
+
+    # Calculate solvent accessibility
+    solvent_accessibility = extract_solvent_accessibility(pdb_file)
+
+    # Calculate local density
+    local_density = calculate_local_density(pdb_file)
+
+    # Create dataset
+    features = []
+    for pocket_id, residues in pockets.items():
+        for residue in residues:
+            residue_chain, residue_id = residue
+
+            # Check if residue is near ligand
+            is_near_ligand = 1 if (residue_chain, residue_id) in residues_near_ligand else 0
+
+            # Check if residue is part of a pocket
+            is_in_pocket = 1
+
+            # Get solvent accessibility
+            accessibility = solvent_accessibility[residue_chain][residue_id]
+
+            # Get local density
+            density = local_density[residue_chain][residue_id]
+
+            # Add data to dataset
+            features.append((is_near_ligand, is_in_pocket, accessibility, density))
+
+    return features
+
+# Extract labels from the PDB file
+def extract_labels(pdb_file):
+    # Code to extract labels (e.g., binding site annotations) from the PDB file
+    pass
+
+def prepare_dataset(pdb_files):
+    features = []
+    labels = []
+    for pdb_file in pdb_files:
+        # Load PDB file and extract features
+        structure = load_pdb_file(pdb_file)
+        protein_features = extract_features(structure)
+        features.append(protein_features)
+
+        # Extract labels from PDB file
+        label = extract_labels(pdb_file)
+        labels.append(label)
+
+    # Convert features and labels lists to numpy arrays
+    X = np.array(features)
+    y = np.array(labels)
+
+    return X, y
+
+def train_model(X, y):
+    # Code to train the model using the extracted features and labels
+    model = RandomForestClassifier()  # Example: using RandomForestClassifier
+    model.fit(X, y)
+    return model
+
+def predict_binding_sites(pdb_file, model):
+    # Load PDB file and extract features
+    structure = load_pdb_file(pdb_file)
+    features = extract_features(structure)
+
+    # Predict binding sites using the trained model
+    predicted_sites = model.predict(features)
+
+    return predicted_sites
+
+# Main function
+def main():
+    # Load the PDB file
+    pdb_file = "path/to/input/pdb/file.pdb"
+
+    # Prepare the dataset
+    pdb_files = ["path/to/known/binding/sites/pdb1.pdb", "path/to/known/binding/sites/pdb2.pdb"]  # Example: list of known binding site PDB files
+    X, y = prepare_dataset(pdb_files)
+
+    # Train the machine learning model
+    model = train_model(X, y)
+
+    # Predict the binding sites
+    predicted_sites = predict_binding_sites(pdb_file, model)
+
+    # Print the predicted binding sites
+    print("Predicted Binding Sites:")
+    for site in predicted_sites:
+        print(site)
+
+if __name__ == "__main__":
+    main()
