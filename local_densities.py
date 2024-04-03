@@ -1,13 +1,13 @@
 from Bio.PDB import PDBParser
 from Bio.PDB.NeighborSearch import NeighborSearch
 
-def calculate_local_density(pdb_file, residue_type):
+def calculate_local_density(pdb_file):
     # Parse the PDB file
     parser = PDBParser()
     structure = parser.get_structure("structure", pdb_file)
 
-    # Get all residues of the specified type
-    residues = [residue for residue in structure.get_residues() if residue.get_resname() == residue_type]
+    # Get all residues
+    residues = structure.get_residues()
 
     # Create a NeighborSearch object
     ns = NeighborSearch(list(structure.get_atoms()))
@@ -23,8 +23,7 @@ def calculate_local_density(pdb_file, residue_type):
 
 # Example usage
 pdb_file = "path/to/your.pdb"
-residue_type = "ALA"
-densities = calculate_local_density(pdb_file, residue_type)
+densities = calculate_local_density(pdb_file)
 print(densities)
 
-# returns a list of local densities for each residue of the specified type in the PDB file.
+# returns a list of local densities for each residue in the PDB file.
