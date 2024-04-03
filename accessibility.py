@@ -3,7 +3,7 @@ from Bio.PDB.DSSP import DSSP
 
 def extract_solvent_accessibility(pdb_file):
     # Parse the PDB file
-    parser = PDBParser()
+    parser = PDBParser(QUIET=True)
     structure = parser.get_structure("pdb", pdb_file)
 
     # Calculate solvent accessibility using DSSP
@@ -13,11 +13,10 @@ def extract_solvent_accessibility(pdb_file):
     # Extract solvent accessibility for each residue
     solvent_accessibility = {}
     for residue in model.get_residues():
-        residue_id = residue.get_id()
-        chain_id = residue_id[2]
-        residue_number = residue_id[1]
-        key = (chain_id, residue_number)
-        solvent_accessibility[key] = dssp[key][3]
+        residue_name = residue.get_resname()
+        residue_number = residue.id[1]
+        full_identifier = f"{residue_name}{residue_number}"
+        solvent_accessibility[full_identifier] = dssp[residue.get_full_id()][3]
 
     return solvent_accessibility
 
@@ -26,7 +25,4 @@ pdb_file = "path/to/your/pdb/file.pdb"
 solvent_accessibility = extract_solvent_accessibility(pdb_file)
 print(solvent_accessibility)
 
-# returns a dictionary where the keys are tuples (chain_id, residue_number) 
-# and the values are the corresponding solvent accessibilities.
-
-
+#returns dictionary with residue id as key(eg LEU123) and accessibility float as value
