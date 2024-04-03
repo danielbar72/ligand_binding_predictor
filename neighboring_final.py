@@ -14,7 +14,6 @@ def get_ligand_id(pdb_file):
             for residue in chain:
                 if residue.id[0][0:2] == 'H_':
                     if len(residue) > 10:  # Check for large HETATM
-                        print(residue.id[0])
                         return (residue.id[0]) 
 
 
@@ -48,10 +47,12 @@ def residues_within_distance(pdb_file, ligand_distance):
 
     return residues_within_distance
 
+"""
 # Example usage
-pdb_file = "ligand_protein_pdb/7ofk.pdb"
+pdb_file = "ligand_protein_pdb/4yay.pdb"
 ligand_distance = 6 # Specify the distance threshold
 residues = residues_within_distance(pdb_file, ligand_distance)
 print("Residues within distance of ligand:")
 for residue in residues:
     print(f"Chain: {residue.get_full_id()[2]}, Residue: {residue.get_resname()}{residue.id[1]}")
+"""
