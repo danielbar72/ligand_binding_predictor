@@ -8,13 +8,16 @@ def get_ligand_id(pdb_file):
     pdb_parser = PDBParser()
     structure = pdb_parser.get_structure("pdb", pdb_file)
 
+    # List of common ligand residue names, excluding water
+    ligand_names = {'H_'}  # Add other ligand residue names as needed
 
     for model in structure:
         for chain in model:
             for residue in chain:
-                if residue.id[0][0:2] == 'H_':
+                residue_name = residue.resname.strip()
+                if residue.id[0][0:2] == 'H_' and residue_name not in {'HOH', 'WAT'}:
                     if len(residue) > 10:  # Check for large HETATM
-                        return (residue.id[0]) 
+                        return (residue.id[0])
 
 
 
