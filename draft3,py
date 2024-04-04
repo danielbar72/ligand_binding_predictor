@@ -23,12 +23,12 @@ def load_pdb_file(file_path):
 
     return structure
 
-def extract_features(pdb_file, ligand_distance):
+def extract_features(pdb_file):
     # Run fpocket to get pockets
     pockets = run_fpocket(pdb_file)
 
     # Get residues within distance of ligand
-    residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
+    #residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
 
     # Calculate solvent accessibility
     solvent_accessibility = extract_solvent_accessibility(pdb_file)
@@ -43,7 +43,7 @@ def extract_features(pdb_file, ligand_distance):
             residue_chain, residue_id = residue
 
             # Check if residue is near ligand
-            is_near_ligand = 1 if (residue_chain, residue_id) in residues_near_ligand else 0
+            #is_near_ligand = 1 if (residue_chain, residue_id) in residues_near_ligand else 0
 
             # Check if residue is part of a pocket
             is_in_pocket = 1
@@ -55,19 +55,28 @@ def extract_features(pdb_file, ligand_distance):
             density = local_density[residue_chain][residue_id]
 
             # Add data to dataset
-            features.append((is_near_ligand, is_in_pocket, accessibility, density))
+            features.append((is_in_pocket, accessibility, density))
 
     return features
 
-def extract_labels(residue_id):
-    # Assuming you have a list of known binding site residues
-    known_binding_residues = [...]  # List of residue identifiers in the binding site
-    
-    # Check if the residue is in the known binding site
-    if residue_id in known_binding_residues:
-        return 1  # Binding
-    else:
-        return 0  # Non-binding
+# Extract labels from the PDB file
+def extract_labels(pdb_file, ligand_distance=5):
+    # Get residues within distance of ligand
+    residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
+
+    # Extract labels for each residue
+    labels = {}
+    parser = PDBParser()
+    structure = parser.get_structure("pdb", pdb_file)
+    for model in structure:
+        for chain in model:
+            for residue in chain:
+                residue_id = residue.id[1]
+                residue_chain = chain.id
+                label = 1 if residue in residues_near_ligand else 0
+                labels[(residue_chain, residue_id)] = label
+
+    return labels
 
 
 def prepare_dataset(pdb_files):
@@ -101,17 +110,32 @@ def predict_binding_sites(pdb_file, model):
     features = extract_features(structure)
 
     # Predict binding sites using the trained model
-    predicted_sites = model.predict(features)
+    predicted_labels = model.predict(features)
+
+    # Extract residues predicted as binding sites
+    predicted_sites = []
+    for residue, label in zip(structure, predicted_labels):
+        residue_id = residue.id[1]
+        residue_chain = residue.parent.id
+        if label == 1:
+            predicted_sites.append((residue_chain, residue_id))
+
+    # Print predicted sites
+    print("Predicted Sites:")
+    for i, site in enumerate(predicted_sites, start=1):
+        print(f"Site {i} Residues:")
+        for residue_chain, residue_id in site:
+            print(f"{residue_chain}{residue_id}")
 
     return predicted_sites
 
 # Main function
 def main():
     # Load the PDB file
-    pdb_file = "path/to/input/pdb/file.pdb"
+    pdb_file = "/home/lorena/test.pdb"
 
     # Prepare the dataset
-    pdb_files = ["path/to/known/binding/sites/pdb1.pdb", "path/to/known/binding/sites/pdb2.pdb"]  # Example: list of known binding site PDB files
+    pdb_files = ["/home/lorena/4yay.pdb", "/home/lorena/1ngk.pdb"]  # Example: list of known binding site PDB files
     X, y = prepare_dataset(pdb_files)
 
     # Train the machine learning model
