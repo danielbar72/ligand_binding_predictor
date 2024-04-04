@@ -25,39 +25,63 @@ def load_pdb_file(file_path):
 
     return structure
 
+def get_resname(residue):
+    return residue.resname + str(residue.id[1])
+
 def extract_features(pdb_file):
     # Run fpocket to get pockets
     pockets = find_pockets(pdb_file)
 
     # Get residues within distance of ligand
-    #residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
+    residues_near_ligand = residues_within_distance(pdb_file, 6)
 
     # Calculate solvent accessibility
     #solvent_accessibility = extract_solvent_accessibility(pdb_file)
 
     # Calculate local density
-    #local_density = calculate_local_density(pdb_file)
+    local_densities = calculate_local_density(pdb_file)
 
-    df = pd.DataFrame(columns=['name', 'pocket_num'])  # You can specify column names here
-
+    df = pd.DataFrame(columns=['name', 'pocket_number', 'local_density', 'hydrophobicity' ,'is_ligand_binding'])
     structure = load_pdb_file(pdb_file)
 
-    print(len(list(structure.get_residues())))
-
+    amino_acid_hydrophobicity = {
+    'ALA': 1.8,
+    'ILE': 4.5,
+    'LEU': 3.8,
+    'VAL': 4.2,
+    'PHE': 2.8,
+    'TRP': -0.9,
+    'MET': 1.9,
+    'PRO': -1.6,
+    'TYR': -1.3,
+    'CYS': 2.5,
+    'ASN': -3.5,
+    'GLN': -3.5,
+    'SER': -0.8,
+    'THR': -0.7,
+    'ASP': -3.5,
+    'GLU': -3.5,
+    'HIS': -3.2,
+    'LYS': -3.9,
+    'ARG': -4.5,
+    'GLY': -0.4
+    }
 
     for r in structure.get_residues():
         if not is_aa(r):
             continue
 
-        name = r.resname + str(r.id[1])
-        was_in_pocket = False
+        name = get_resname(r)
+        pocket_number = 0
+        local_density = local_densities[name]
+        is_ligand_binding = name in residues_near_ligand
+        hydrophobicity = amino_acid_hydrophobicity[r.resname]
         for id, residues in pockets.items():
             if name in residues:
-                df = df._append({'name': name, 'pocket_num': id}, ignore_index=True)
-                was_in_pocket = True
+                pocket_number = id
                 break
-        if not was_in_pocket:
-            df = df._append({'name': name, 'pocket_num': 0}, ignore_index=True)
+        df = df._append({'name': name, 'pocket_number': pocket_number, 'local_density': local_density,'hydrophobicity': hydrophobicity,
+                          'is_ligand_binding': is_ligand_binding}, ignore_index=True)
 
     return df
         
@@ -88,27 +112,35 @@ def extract_labels(pdb_file, ligand_distance=5):
 def prepare_dataset(pdb_files):
     features = []
     labels = []
+    combined_df = pd.DataFrame(columns=['name', 'pocket_number', 'local_density', 'hydrophobicity' ,'is_ligand_binding'])
     for pdb_file in pdb_files:
-        # Load PDB file and extract features
-        structure = load_pdb_file(pdb_file)
-        protein_features = extract_features(pdb_file)
-        features.append(protein_features)
+        df = extract_features(pdb_file)
+        combined_df = pd.concat([combined_df, df], ignore_index=True)
 
-        # Extract labels from PDB file
-        label = extract_labels(pdb_file)
-        labels.append(label)
+    return combined_df
 
-    # Convert features and labels lists to numpy arrays
-    X = np.array(features)
-    y = np.array(labels)
+def train_model(X_train, y_train, X_test, y_test):
+    rf_classifier = RandomForestClassifier(n_estimators=27)
 
-    return X, y
+    rf_classifier.fit(X_train, y_train)
 
-def train_model(X, y):
-    # Code to train the model using the extracted features and labels
-    model = RandomForestClassifier()  # Example: using RandomForestClassifier
-    model.fit(X, y)
-    return model
+
+    y_pred = rf_classifier.predict(X_test)
+
+    df_results = pd.DataFrame({'y_test': y_test, 'y_pred': y_pred})
+
+
+    print(df_results[df_results['y_test'] == 1])
+
+    print("______________")
+    print(df_results[df_results['y_pred'] == 1])
+
+
+    accuracy = accuracy_score(y_test, y_pred)
+
+    print("Accuracy:", accuracy)
+
+    return rf_classifier
 
 def predict_binding_sites(pdb_file, model):
     # Load PDB file and extract features
@@ -139,11 +171,19 @@ def predict_binding_sites(pdb_file, model):
 def main():
 
     # Prepare the dataset
-    pdb_files = ["ligand_protein_pdb/4yay.pdb"]  # Example: list of known binding site PDB files
-    X, y = prepare_dataset(pdb_files)
+    pdb_files = ["ligand_protein_pdb/2bqv.pdb"]  # Example: list of known binding site PDB files
+    df = prepare_dataset(pdb_files)
+
+    # True/False needs to be as 1 or 0
+    df['is_ligand_binding'] = df['is_ligand_binding'].astype(int)
+    X = df[['pocket_number', 'local_density', 'hydrophobicity']]
+    y = df['is_ligand_binding']
+
+    # Splitting the dataset into training and testing sets (80% train, 20% test)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
     # Train the machine learning model
-    model = train_model(X, y)
+    model = train_model(X_train, y_train, X_test, y_test)
 
     # Predict the binding sites
     #predicted_sites = predict_binding_sites(pdb_file, model)

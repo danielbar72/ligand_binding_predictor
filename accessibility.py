@@ -18,11 +18,8 @@ def extract_solvent_accessibility(pdb_file):
         full_identifier = f"{residue_name}{residue_number}"
         solvent_accessibility[full_identifier] = dssp[residue.get_full_id()][3]
 
+    print(solvent_accessibility)
     return solvent_accessibility
 
-# Usage example
-pdb_file = "path/to/your/pdb/file.pdb"
-solvent_accessibility = extract_solvent_accessibility(pdb_file)
-print(solvent_accessibility)
-
+#extract_solvent_accessibility("ligand_protein_pdb/4yay.pdb")
 #returns dictionary with residue id as key(eg LEU123) and accessibility float as value

@@ -46,7 +46,8 @@ def residues_within_distance(pdb_file, ligand_distance):
                     continue
             for residue_atom in residue.get_atoms():
                 if atom - residue_atom <= ligand_distance:
-                    residues_within_distance.add(residue)
+                    name = residue.resname + str(residue.id[1])
+                    residues_within_distance.add(name)
 
     return residues_within_distance
 
