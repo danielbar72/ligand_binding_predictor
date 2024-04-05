@@ -188,6 +188,7 @@ def color_residues(pdb_input_file, model):
     highlighted_residues = [] 
     # Define the residues to be highlighted
     predicted_sites = predict_binding_sites(pdb_input_file, model)
+    print(predicted_sites)
     for pocket_num, residues in predicted_sites.items():
         if pocket_num == 1:
             for r in residues:
