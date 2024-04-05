@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : 0.0227
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9920
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6933
+HEADER 5  - Mean B-factor of pocket residues  : 0.1912
+HEADER 6  - Hydrophobicity Score              : 23.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.9563
+HEADER 10 - Pocket volume (convex hull)       : 15.1015
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   9226   CGAARG I  72      39.672   5.725  65.430  0.00  0.00           C 0
+ATOM   9224   CBAARG I  72      39.413   5.829  63.911  0.00  0.00           C 0
+ATOM   9198   CA ARG I  70      40.497  11.288  61.523  0.00  0.00           C 0
+ATOM   9208    N LEU I  71      42.123   9.813  62.556  0.00  0.00           N 0
+ATOM   9243   CG MET I  73      36.916   6.875  59.337  0.00  0.00           C 0
+ATOM   9238    N MET I  73      39.749   6.404  60.841  0.70  1.09           N 0
+ATOM   6118   CB PRO F  77      32.859   5.631  61.043  0.00  0.00           C 0
+ATOM  10217    O GLU J  64      33.769   8.134  58.200  0.62  1.07           O 0
+ATOM   6117    O PRO F  77      33.613   5.764  64.051  0.50  9.64           O 0
+ATOM  10215   CA GLU J  64      31.576   9.072  58.198  0.00  0.00           C 0
+ATOM  10219   CG GLU J  64      29.341   8.510  59.317  0.00  0.00           C 0
+ATOM   6130  CE2 PHE F  78      29.028   5.661  63.047  0.00  0.00           C 0
+ATOM   9206  NH1 ARG I  70      36.497  10.531  58.187  0.57  3.28           N 0
+ATOM   9199    C ARG I  70      41.327  10.006  61.513  0.00  0.00           C 0
+ATOM   6115   CA PRO F  77      33.960   4.931  61.849  0.00  0.00           C 0
+ATOM   9201   CB ARG I  70      39.684  11.412  60.232  0.00  0.00           C 0
+ATOM   9202   CG ARG I  70      38.624  12.511  60.281  0.00  0.00           C 0
+ATOM   9216    NAARG I  72      41.363   7.143  63.087  0.66  1.09           N 0
+TER
+END

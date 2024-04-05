@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : -0.1666
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1781
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6190
+HEADER 5  - Mean B-factor of pocket residues  : 0.5768
+HEADER 6  - Hydrophobicity Score              : 30.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 314.4832
+HEADER 10 - Pocket volume (convex hull)       : 10.3550
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM  10157   CA ILE F 105       8.971 -14.900  60.312  0.00  0.00           C 0
+ATOM  10160   CB ILE F 105       7.805 -15.622  59.565  0.00  0.00           C 0
+ATOM  10849    N GLN F 214       9.261  -9.840  53.732  0.00  0.00           N 0
+ATOM  10156    N ILE F 105      10.259 -15.418  59.840  0.68  4.37           N 0
+ATOM  10547   CB ALA F 157      13.729 -11.998  57.770  0.00  0.00           C 0
+ATOM  10155    O GLY F 104      11.529 -13.752  60.693  0.00  0.00           O 0
+ATOM  10863  CG1 ILE F 215      13.145 -12.180  52.527  0.00  0.00           C 0
+ATOM  10153   CA GLY F 104      12.626 -15.406  59.318  0.00  0.00           C 0
+ATOM  10865  CD1 ILE F 215      13.976 -11.496  53.652  0.00  0.00           C 0
+ATOM  10540   CB PRO F 156      13.459  -7.445  58.178  0.00  0.00           C 0
+ATOM  10854   CG GLN F 214       8.295  -7.029  54.523  0.00  0.00           C 0
+ATOM  10853   CB GLN F 214       9.704  -7.493  54.173  0.00  0.00           C 0
+ATOM  10857  NE2 GLN F 214       8.029  -4.959  55.762  0.00  0.00           N 0
+ATOM  10154    C GLY F 104      11.415 -14.776  60.006  0.00  0.00           C 0
+ATOM  10163  CD1 ILE F 105       6.032 -13.732  59.274  0.00  0.00           C 0
+ATOM  10159    O ILE F 105       7.991 -14.218  62.446  0.75  4.29           O 0
+ATOM  10543    N ALA F 157      14.320 -10.364  59.546  0.61  2.19           N 0
+TER
+END

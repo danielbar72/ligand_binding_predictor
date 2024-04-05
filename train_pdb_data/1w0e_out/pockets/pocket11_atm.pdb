@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0108
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8872
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6019
+HEADER 5  - Mean B-factor of pocket residues  : 0.5186
+HEADER 6  - Hydrophobicity Score              : -22.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.8080
+HEADER 10 - Pocket volume (convex hull)       : 8.6710
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   2222    N ASP A 326      56.925  59.897  34.490  0.00  0.00           N 0
+ATOM   2218    O PRO A 325      56.942  58.298  32.899  0.64  4.29           O 0
+ATOM   2253  OE1 GLN A 329      54.619  54.643  35.369  0.00  0.00           O 0
+ATOM   2223   CA ASP A 326      55.573  59.607  34.936  0.00  0.00           C 0
+ATOM   2243   CD GLN A 328      58.861  57.789  28.127  0.00  0.00           C 0
+ATOM   3357   OG SER A 464      60.562  54.210  28.862  0.62  7.50           O 0
+ATOM   2279  OE1 GLN A 332      56.173  54.725  28.733  0.82  8.57           O 0
+ATOM   2217    C PRO A 325      57.499  59.213  33.500  0.00  0.00           C 0
+ATOM   2250   CB GLN A 329      54.020  56.066  32.808  0.00  0.00           C 0
+ATOM   2251   CG GLN A 329      53.841  54.572  33.084  0.00  0.00           C 0
+ATOM   2220   CG PRO A 325      60.175  59.443  35.110  0.00  0.00           C 0
+ATOM   2219   CB PRO A 325      60.003  58.801  33.794  0.00  0.00           C 0
+ATOM   3376   CE LYS A 466      62.197  55.361  32.071  0.00  0.00           C 0
+ATOM   3377   NZ LYS A 466      62.138  56.764  32.605  0.85  5.47           N 0
+ATOM   2245  NE2 GLN A 328      59.679  58.507  28.899  0.00  0.00           N 0
+ATOM   2226   CB ASP A 326      55.287  60.310  36.279  0.00  0.00           C 0
+TER
+END

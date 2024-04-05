@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0498
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7415
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4538
+HEADER 5  - Mean B-factor of pocket residues  : 0.0287
+HEADER 6  - Hydrophobicity Score              : 68.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.8431
+HEADER 10 - Pocket volume (convex hull)       : 1.2758
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3500
+ATOM   1125    O LEU A 391     -27.923  18.848 -13.182  0.00  0.00           O 0
+ATOM   1892   CB PHE A 486     -21.917  19.732 -12.246  0.00  0.00           C 0
+ATOM    515  NE1 TRP A 317     -25.500  17.549 -12.319  0.00  0.00           N 0
+ATOM    518  CZ2 TRP A 317     -24.014  16.999 -14.269  0.00  0.00           C 0
+ATOM    474   SD MET A 313     -27.154  21.594 -10.665  0.00  0.00           S 0
+ATOM   1855    O ARG A 482     -21.626  19.634 -15.836  0.00  0.00           O 0
+ATOM   1133    O GLY A 392     -28.210  20.628 -16.158  0.28  5.36           O 0
+ATOM   1924  CD1 LEU A 489     -24.226  24.570 -11.631  0.00  0.00           C 0
+ATOM    475   CE MET A 313     -28.836  21.742 -11.366  0.00  0.00           C 0
+ATOM   1888    N PHE A 486     -21.196  21.562 -13.712  0.00  0.00           N 0
+ATOM   1886  CG2 ILE A 485     -23.010  23.838 -15.819  0.00  0.00           C 0
+ATOM   1861  NH1 ARG A 482     -26.715  21.950 -18.208  0.00  0.00           N 0
+ATOM   1859   NE ARG A 482     -25.175  20.373 -18.897  0.68  1.09           N 0
+ATOM   1889   CA PHE A 486     -21.564  21.230 -12.338  0.00  0.00           C 0
+TER
+END

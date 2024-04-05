@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : -0.0833
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9595
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5269
+HEADER 5  - Mean B-factor of pocket residues  : 0.3009
+HEADER 6  - Hydrophobicity Score              : 4.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 137.8350
+HEADER 10 - Pocket volume (convex hull)       : 0.8370
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   8603    O SER E 152      37.416  -5.733  65.290  0.00  0.00           O 0
+ATOM  10674   NE ARG F 173      36.579  -8.720  63.731  0.42  3.28           N 0
+ATOM  10677  NH2 ARG F 173      34.367  -8.142  63.414  0.33  9.84           N 0
+ATOM  11188  CD1 ILE F 257      34.776  -8.485  58.736  0.00  0.00           C 0
+ATOM  11179  OD1 ASP F 256      39.418  -6.616  56.921  0.41  7.50           O 0
+ATOM  11172    O GLY F 255      40.098  -9.801  60.223  0.78  2.14           O 0
+ATOM   5583  CE1 HIS C 265      40.879  -3.732  58.886  0.00  0.00           C 0
+ATOM   5591  CG2 THR C 266      42.109  -7.202  60.487  0.00  0.00           C 0
+ATOM   5589   CB THR C 266      42.203  -7.578  62.004  0.00  0.00           C 0
+ATOM   8615  NH1 ARG E 153      40.262  -2.526  63.388  0.00  0.00           N 0
+ATOM  10673   CD ARG F 173      37.781  -9.042  64.506  0.00  0.00           C 0
+ATOM   5586   CA THR C 266      42.290  -6.296  62.928  0.00  0.00           C 0
+TER
+END

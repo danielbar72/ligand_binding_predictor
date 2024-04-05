@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    94:
+HEADER 0  - Pocket Score                      : -0.0837
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0914
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7408
+HEADER 5  - Mean B-factor of pocket residues  : 0.5715
+HEADER 6  - Hydrophobicity Score              : -7.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.4778
+HEADER 10 - Pocket volume (convex hull)       : 4.1389
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   4525    O GLN E  25      52.944  39.191  13.799  0.60  1.07           O 0
+ATOM   4528   CD GLN E  25      49.258  42.651  15.843  0.00  0.00           C 0
+ATOM   4529  OE1 GLN E  25      49.759  42.735  16.962  0.53  7.50           O 0
+ATOM   4530  NE2 GLN E  25      48.960  43.717  15.096  0.00  0.00           N 0
+ATOM   4526   CB GLN E  25      50.219  40.437  15.289  0.00  0.00           C 0
+ATOM   4558  OD1 ASP E  29      55.474  40.605  18.102  0.30  7.50           O 0
+ATOM   5154   SG CYS E  91      51.834  39.964  18.401  0.00  0.00           S 0
+ATOM   4548   CG GLU E  28      53.908  40.428   9.590  0.00  0.00           C 0
+ATOM   4523   CA GLN E  25      50.633  39.865  13.950  0.00  0.00           C 0
+ATOM   4492  NH1 ARG E  21      47.163  43.541  13.368  0.00  0.00           N 0
+ATOM   4520    O ALA E  24      50.526  38.912  11.363  0.00  0.00           O 0
+ATOM   4547   CB GLU E  28      54.984  40.730  10.642  0.00  0.00           C 0
+ATOM   4545    C GLU E  28      56.216  39.958  12.726  0.00  0.00           C 0
+ATOM   4552    N ASP E  29      55.839  39.317  13.829  0.00  0.00           N 0
+ATOM   4546    O GLU E  28      57.050  40.866  12.745  0.50  4.29           O 0
+ATOM   4553   CA ASP E  29      56.441  39.627  15.120  0.00  0.00           C 0
+ATOM   4567  OE1 GLU E  30      59.147  42.616  15.161  0.00  0.00           O 0
+ATOM   4556   CB ASP E  29      55.560  39.138  16.260  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.1095
+HEADER 1  - Drug Score                        : 0.0058
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1555
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4097
+HEADER 5  - Mean B-factor of pocket residues  : 0.5945
+HEADER 6  - Hydrophobicity Score              : -14.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 389.3517
+HEADER 10 - Pocket volume (convex hull)       : 14.2990
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.6667
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.9000
+ATOM   6409   CG PRO D 107      26.793  16.755  37.026  0.00  0.00           C 0
+ATOM   6391    O ILE D 105      23.195  17.290  39.579  0.50  7.50           O 0
+ATOM   6410   CD PRO D 107      26.391  17.849  37.969  0.00  0.00           C 0
+ATOM    399   CD ARG A  53      20.451  16.731  31.547  0.00  0.00           C 0
+ATOM    397   CB ARG A  53      19.615  14.329  31.818  0.00  0.00           C 0
+ATOM    396    O ARG A  53      17.252  12.805  32.536  0.00  0.00           O 0
+ATOM    394   CA ARG A  53      19.611  13.188  32.835  0.00  0.00           C 0
+ATOM   6395  CD1 ILE D 105      19.359  16.903  39.592  0.00  0.00           C 0
+ATOM    398   CG ARG A  53      20.770  15.309  32.031  0.00  0.00           C 0
+ATOM    389   CB ASP A  52      23.791  11.655  33.982  0.00  0.00           C 0
+ATOM    388    O ASP A  52      20.724  11.594  34.858  0.32  8.57           O 0
+ATOM    387    C ASP A  52      21.297  11.666  33.757  0.00  0.00           C 0
+ATOM   6393  CG1 ILE D 105      20.179  18.170  39.506  0.00  0.00           C 0
+ATOM    364   CG ARG A  49      26.517  15.617  31.225  0.00  0.00           C 0
+ATOM    365   CD ARG A  49      26.669  16.898  30.396  0.00  0.00           C 0
+ATOM   6440  OD2 ASP D 110      29.266  18.557  35.664  0.58  9.64           O 0
+ATOM    391  OD1 ASP A  52      26.096  11.362  34.510  0.44  9.64           O 0
+ATOM    362    O ARG A  49      24.012  13.714  31.148  0.66  1.07           O 0
+TER
+END

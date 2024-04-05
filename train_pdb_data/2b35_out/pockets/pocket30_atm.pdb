@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0051
+HEADER 1  - Drug Score                        : 0.0133
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8626
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5210
+HEADER 5  - Mean B-factor of pocket residues  : 0.4729
+HEADER 6  - Hydrophobicity Score              : 49.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.8839
+HEADER 10 - Pocket volume (convex hull)       : 9.4200
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.9000
+ATOM  10151   CE MET F 103      17.649 -17.261  57.647  0.00  0.00           C 0
+ATOM  10153   CA GLY F 104      12.626 -15.406  59.318  0.00  0.00           C 0
+ATOM  10131  OE1 GLN F 100      12.873 -20.834  58.617  0.62  4.29           O 0
+ATOM  10147    O MET F 103      13.821 -17.860  60.034  0.73  2.14           O 0
+ATOM  10863  CG1 ILE F 215      13.145 -12.180  52.527  0.00  0.00           C 0
+ATOM  10865  CD1 ILE F 215      13.976 -11.496  53.652  0.00  0.00           C 0
+ATOM  10547   CB ALA F 157      13.729 -11.998  57.770  0.00  0.00           C 0
+ATOM  10889  CD1 LEU F 218      17.040  -9.559  52.301  0.00  0.00           C 0
+ATOM  10552   CB TYR F 158      19.065 -11.826  58.619  0.00  0.00           C 0
+ATOM  10539    O PRO F 156      15.745  -9.709  57.896  0.58  2.14           O 0
+ATOM  10534   SD MET F 155      20.445  -8.669  57.024  0.00  0.00           S 0
+ATOM  10548    N TYR F 158      16.679 -11.936  59.155  0.53  1.09           N 0
+ATOM  10545    C ALA F 157      15.539 -12.562  59.421  0.00  0.00           C 0
+ATOM  10549   CA TYR F 158      17.958 -12.635  59.289  0.00  0.00           C 0
+ATOM  10488  CE1 PHE F 149      22.844 -10.035  54.998  0.00  0.00           C 0
+ATOM  10554  CD1 TYR F 158      20.222 -13.613  57.296  0.00  0.00           C 0
+ATOM  10490   CZ PHE F 149      22.648 -10.025  53.646  0.00  0.00           C 0
+ATOM  10546    O ALA F 157      15.508 -13.722  59.827  0.00  0.00           O 0
+TER
+END

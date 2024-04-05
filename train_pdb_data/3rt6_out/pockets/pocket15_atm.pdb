@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1275
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9358
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4958
+HEADER 5  - Mean B-factor of pocket residues  : 0.2965
+HEADER 6  - Hydrophobicity Score              : 27.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.1993
+HEADER 10 - Pocket volume (convex hull)       : 6.1248
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   2018   CD LYS B 258      31.221  38.858  16.443  0.00  0.00           C 0
+ATOM   1567   OH TYR B 199      30.982  32.564  19.055  0.76  4.29           O 0
+ATOM   2016   CB LYS B 258      32.779  36.859  16.122  0.00  0.00           C 0
+ATOM   1603  NH1 ARG B 203      33.972  34.449  20.817  0.00  0.00           N 0
+ATOM   2017   CG LYS B 258      31.472  37.539  15.688  0.00  0.00           C 0
+ATOM   1976  CZ3 TRP B 254      27.050  38.052  17.208  0.00  0.00           C 0
+ATOM    262  OE1 GLU B  33      25.301  40.390  21.039  0.00  0.00           O 0
+ATOM    263  OE2 GLU B  33      26.484  38.648  21.710  0.54  4.29           O 0
+ATOM   2020   NZ LYS B 258      29.957  41.042  16.432  0.00  0.00           N 0
+ATOM    127   CE MET B  18      26.782  34.983  19.872  0.00  0.00           C 0
+ATOM   1974  CE3 TRP B 254      27.422  37.164  16.219  0.00  0.00           C 0
+ATOM   1604  NH2 ARG B 203      33.336  33.013  22.503  0.00  0.00           N 0
+ATOM    126   SD MET B  18      27.168  33.410  20.643  0.00  0.00           S 0
+TER
+END

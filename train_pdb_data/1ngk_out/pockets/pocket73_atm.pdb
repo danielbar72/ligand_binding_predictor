@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    73:
+HEADER 0  - Pocket Score                      : -0.0344
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6772
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5188
+HEADER 5  - Mean B-factor of pocket residues  : 0.2967
+HEADER 6  - Hydrophobicity Score              : -1.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.4283
+HEADER 10 - Pocket volume (convex hull)       : 12.3723
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   2484  OD1AASP C  39      48.748 -38.918  60.026  0.12  7.50           O 0
+ATOM   2474   CAAASP C  39      49.448 -36.648  61.645  0.00  0.00           C 0
+ATOM   2478    OAASP C  39      49.548 -36.057  63.960  0.00  0.00           O 0
+ATOM   2480   CBAASP C  39      50.482 -37.575  60.950  0.00  0.00           C 0
+ATOM   2460    OAGLU C  38      47.256 -37.252  60.527  0.08  6.43           O 0
+ATOM   2404   CG ARG C  33      42.388 -36.492  64.212  0.00  0.00           C 0
+ATOM   2405   CD ARG C  33      42.122 -37.893  64.808  0.00  0.00           C 0
+ATOM   2408  NH1 ARG C  33      41.893 -39.510  62.458  0.10  4.37           N 0
+ATOM   2518  CD2ALEU C  41      47.522 -32.109  64.300  0.00  0.00           C 0
+ATOM   2402    O ARG C  33      42.373 -34.323  61.500  0.53  1.07           O 0
+ATOM   2400   CA ARG C  33      41.460 -34.134  63.710  0.00  0.00           C 0
+ATOM   2514   CGALEU C  41      47.986 -32.789  65.590  0.00  0.00           C 0
+ATOM   2516  CD1ALEU C  41      46.813 -33.034  66.533  0.00  0.00           C 0
+ATOM   2446    OAPRO C  37      47.491 -33.118  60.556  0.45  1.07           O 0
+ATOM   2458    CAGLU C  38      47.729 -36.189  60.106  0.00  0.00           C 0
+ATOM   2356    O ALA C  27      43.196 -36.865  67.949  0.61  2.14           O 0
+ATOM   2357   CB ALA C  27      45.602 -35.292  69.300  0.00  0.00           C 0
+ATOM   2354   CA ALA C  27      44.328 -34.843  68.605  0.00  0.00           C 0
+TER
+END

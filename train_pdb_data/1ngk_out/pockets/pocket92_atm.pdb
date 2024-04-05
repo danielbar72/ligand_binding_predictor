@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    92:
+HEADER 0  - Pocket Score                      : -0.0795
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8498
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5004
+HEADER 5  - Mean B-factor of pocket residues  : 0.5494
+HEADER 6  - Hydrophobicity Score              : -1.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.5734
+HEADER 10 - Pocket volume (convex hull)       : 5.1354
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   9782    N ALA J  12      17.300   7.448  47.289  0.66  3.28           N 0
+ATOM   6006  NE2 GLN F  65      17.734   2.296  48.985  0.81  2.19           N 0
+ATOM   9786   CB ALA J  12      18.704   5.456  47.640  0.00  0.00           C 0
+ATOM   5836  OE2 GLU F  46      14.637   3.048  52.681  0.38  9.64           O 0
+ATOM   6005  OE1 GLN F  65      16.342   1.726  47.312  0.50  8.57           O 0
+ATOM   5835  OE1 GLU F  46      16.636   3.766  53.254  0.41  4.29           O 0
+ATOM   9777    O GLY J  10      14.153   7.980  45.577  0.56  2.14           O 0
+ATOM   9779   CA GLY J  11      15.721   9.254  47.499  0.00  0.00           C 0
+ATOM   9760  OD1 ASP J   7      13.662   9.643  51.467  0.60  7.50           O 0
+ATOM   9776    C GLY J  10      13.900   9.150  45.877  0.00  0.00           C 0
+ATOM   9753   OH TYR J   6      18.929   7.854  49.399  0.56  3.21           O 0
+ATOM   9787    N LYS J  13      17.167   5.871  44.874  0.00  0.00           N 0
+ATOM   9791   CB LYS J  13      15.480   4.949  43.292  0.00  0.00           C 0
+ATOM   9751  CE2 TYR J   6      17.487   9.422  50.463  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    46:
+HEADER 0  - Pocket Score                      : -0.0324
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9012
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4769
+HEADER 5  - Mean B-factor of pocket residues  : 0.5851
+HEADER 6  - Hydrophobicity Score              : 38.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.4580
+HEADER 10 - Pocket volume (convex hull)       : 2.7644
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   1464    N GLY A 212      15.188  24.564   2.350  0.00  0.00           N 0
+ATOM    770    O GLY A 104      17.940  18.164  -0.556  0.35  8.57           O 0
+ATOM   1481  NE2 GLN A 214      12.467  21.056  -2.248  0.32  8.75           N 0
+ATOM    778  CD1 ILE A 105      19.445  23.317  -1.620  0.00  0.00           C 0
+ATOM   1162   CB ALA A 157      14.838  17.093   1.862  0.00  0.00           C 0
+ATOM    769    C GLY A 104      18.868  18.216   0.249  0.00  0.00           C 0
+ATOM   1489  CD1 ILE A 215      14.264  19.102   5.196  0.00  0.00           C 0
+ATOM   1477   CB GLN A 214      11.439  22.558   0.091  0.00  0.00           C 0
+ATOM   1482    N ILE A 215      11.390  22.137   3.141  0.00  0.00           N 0
+ATOM    772   CA ILE A 105      19.989  19.942  -1.052  0.00  0.00           C 0
+ATOM   1486   CB ILE A 215      12.629  21.040   5.056  0.00  0.00           C 0
+ATOM    771    N ILE A 105      19.910  19.026   0.091  0.45  1.09           N 0
+ATOM    775   CB ILE A 105      20.695  21.306  -0.689  0.00  0.00           C 0
+ATOM    768   CA GLY A 104      18.870  17.351   1.493  0.00  0.00           C 0
+TER
+END

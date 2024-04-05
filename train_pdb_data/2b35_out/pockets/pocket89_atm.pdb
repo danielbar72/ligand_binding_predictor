@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    89:
+HEADER 0  - Pocket Score                      : -0.2060
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.8667
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4181
+HEADER 5  - Mean B-factor of pocket residues  : 0.5270
+HEADER 6  - Hydrophobicity Score              : 19.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.8708
+HEADER 10 - Pocket volume (convex hull)       : 3.2237
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5185
+ATOM   7475   CB LEU D 269      15.583  -2.971  55.512  0.00  0.00           C 0
+ATOM   7477  CD1 LEU D 269      14.574  -1.426  53.733  0.00  0.00           C 0
+ATOM  10857  NE2 GLN F 214       8.029  -4.959  55.762  0.00  0.00           N 0
+ATOM   7473    C LEU D 269      15.124  -1.717  57.583  0.00  0.00           C 0
+ATOM   7476   CG LEU D 269      15.357  -2.731  54.010  0.00  0.00           C 0
+ATOM   7144  OE1 GLN D 224       9.928   1.039  55.078  0.38  8.57           O 0
+ATOM  10541   CG PRO F 156      14.168  -6.597  57.178  0.00  0.00           C 0
+ATOM   8804  NH1 ARG E 177      13.180  -4.862  61.798  0.00  0.00           N 0
+ATOM  10540   CB PRO F 156      13.459  -7.445  58.178  0.00  0.00           C 0
+ATOM  10853   CB GLN F 214       9.704  -7.493  54.173  0.00  0.00           C 0
+ATOM  10855   CD GLN F 214       8.207  -5.524  54.563  0.00  0.00           C 0
+ATOM  10852    O GLN F 214      11.978  -7.758  52.684  0.35  6.43           O 0
+ATOM   8805  NH2 ARG E 177      14.630  -3.548  60.637  0.69  3.28           N 0
+ATOM  10856  OE1 GLN F 214       8.313  -4.868  53.523  0.24  3.21           O 0
+ATOM  10882  CD2 LEU F 217      11.451  -2.607  50.439  0.00  0.00           C 0
+ATOM  10879   CB LEU F 217      12.302  -4.950  50.183  0.00  0.00           C 0
+ATOM  10881  CD1 LEU F 217       9.857  -4.499  50.635  0.00  0.00           C 0
+TER
+END

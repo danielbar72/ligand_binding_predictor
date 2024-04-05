@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    85:
+HEADER 0  - Pocket Score                      : -0.0653
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8921
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5708
+HEADER 5  - Mean B-factor of pocket residues  : 0.5084
+HEADER 6  - Hydrophobicity Score              : -11.6250
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.3271
+HEADER 10 - Pocket volume (convex hull)       : 22.5518
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0400
+ATOM  12004    O GLN L  25      38.084  -4.890  17.488  0.00  0.00           O 0
+ATOM  12025    O GLU L  28      36.563  -8.745  18.826  0.69  3.21           O 0
+ATOM  12037  OD1 ASP L  29      40.755  -8.880  15.613  0.39  3.21           O 0
+ATOM  12032   CA ASP L  29      39.277  -8.411  18.508  0.00  0.00           C 0
+ATOM  12562   CD ARG L  90      40.120 -10.238   9.834  0.00  0.00           C 0
+ATOM  12596  OG1 THR L  94      36.464  -4.340   9.671  0.00  0.00           O 0
+ATOM  12561   CG ARG L  90      40.553  -8.905   9.198  0.00  0.00           C 0
+ATOM   3766  NH2 ARG D  60      37.231 -12.734   9.867  0.53  7.66           N 0
+ATOM  12560   CB ARG L  90      40.820  -7.782  10.180  0.00  0.00           C 0
+ATOM  12035   CB ASP L  29      40.309  -7.702  17.628  0.00  0.00           C 0
+ATOM   3765  NH1 ARG D  60      37.747 -12.450  12.092  0.00  0.00           N 0
+ATOM  12046  OE1 GLU L  30      38.554 -12.528  17.628  0.41  5.36           O 0
+ATOM  12563   NE ARG L  90      40.968 -10.655  10.964  0.65  1.09           N 0
+ATOM  12008  OE1 GLN L  25      35.299  -4.424  13.746  0.00  0.00           O 0
+ATOM  12026   CB GLU L  28      34.938  -6.374  19.264  0.00  0.00           C 0
+ATOM  12572   SG CYS L  91      40.522  -5.106  14.626  0.00  0.00           S 0
+ATOM  12567    N CYS L  91      40.842  -4.939  11.405  0.00  0.00           N 0
+ATOM  12568   CA CYS L  91      40.249  -3.848  12.171  0.00  0.00           C 0
+ATOM  12559    O ARG L  90      39.443  -4.761   9.633  0.37  2.14           O 0
+ATOM  12029  OE1 GLU L  28      33.513  -4.434  17.355  0.66  4.29           O 0
+ATOM  12558    C ARG L  90      40.406  -5.297  10.196  0.00  0.00           C 0
+TER
+END

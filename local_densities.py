@@ -30,20 +30,8 @@ def calculate_local_density(pdb_file):
             continue
         
         neighbors = ns.search(c_alfa.get_coord(), 10.0)  # Adjust the distance cutoff as needed
-        local_density = len(neighbors) / (4/3 * 3.14 * 10.0**3)  # Adjust the volume calculation as needed
-
         name = residue.resname + str(residue.id[1])
         local_densities[name] = len(neighbors)
-        """
-        if name not in local_densities:
-            local_densities[name] = [local_density]
-        else:
-                            
-            local_densities[name].append(full_residue)
-        """
+
 
     return local_densities
-
-
-# calculate_local_density("ligand_protein_pdb/4yay.pdb")
-# returns a list of local densities for each residue in the PDB file.

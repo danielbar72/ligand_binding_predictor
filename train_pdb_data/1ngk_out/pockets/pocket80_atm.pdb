@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0549
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8608
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4601
+HEADER 5  - Mean B-factor of pocket residues  : 0.1627
+HEADER 6  - Hydrophobicity Score              : 43.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.2034
+HEADER 10 - Pocket volume (convex hull)       : 3.3521
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM   6521    N PRO F 127      39.114  -2.120  71.012  0.74  1.09           N 0
+ATOM   6522   CA PRO F 127      39.333  -2.608  72.383  0.00  0.00           C 0
+ATOM   9673  CG1 VAL I 124      43.619  -3.237  68.693  0.00  0.00           C 0
+ATOM   6525   CB PRO F 127      40.837  -2.386  72.601  0.00  0.00           C 0
+ATOM   3178   CE MET C 118      37.820  -8.981  69.574  0.00  0.00           C 0
+ATOM   6518    O SER F 126      37.147  -3.204  70.726  0.81  2.14           O 0
+ATOM   6517    C SER F 126      38.002  -2.408  70.324  0.00  0.00           C 0
+ATOM   9685    C SER I 126      42.030  -6.954  65.777  0.00  0.00           C 0
+ATOM   6503    O VAL F 124      36.343  -5.992  65.384  0.76  1.07           O 0
+ATOM   6505  CG1 VAL F 124      35.529  -6.274  68.689  0.00  0.00           C 0
+ATOM   6515    N SER F 126      37.319  -2.655  67.961  0.83  3.28           N 0
+ATOM   9686    O SER I 126      42.910  -6.620  66.580  0.00  0.00           O 0
+ATOM   9689    N PRO I 127      41.418  -8.147  65.793  0.00  0.00           N 0
+ATOM   2638   OH TYR C  55      43.957  -8.938  70.603  0.00  0.00           O 0
+ATOM   9322  CD2 LEU I  82      46.123  -5.069  71.701  0.00  0.00           C 0
+ATOM   9690   CA PRO I 127      41.798  -9.226  66.719  0.00  0.00           C 0
+ATOM   9683    N SER I 126      41.657  -4.577  65.131  0.00  0.00           N 0
+TER
+END

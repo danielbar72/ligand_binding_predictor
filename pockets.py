@@ -17,8 +17,7 @@ def find_pockets(pdb_file):
     for file_name in os.listdir(pockets_dir):
         if file_name.endswith('.pdb'):
             pocket_num = int(file_name.split('.')[0].split('_')[0][6:])
-            # Use a set to avoid duplicate residues
-
+            
             # Read the pocket file and extract the residues
             with open(os.path.join(pockets_dir, file_name), 'r') as pocket_file:
                 for line in pocket_file:
@@ -34,6 +33,3 @@ def find_pockets(pdb_file):
 
     return pocket_residues
 
-# Example usage
-#pdb_file = "path/to/your/pdb/file.pdb"
-#find_pockets(pdb_file)

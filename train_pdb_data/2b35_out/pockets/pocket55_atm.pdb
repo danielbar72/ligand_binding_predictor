@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.0460
+HEADER 1  - Drug Score                        : 0.0026
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0637
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6370
+HEADER 5  - Mean B-factor of pocket residues  : 0.7059
+HEADER 6  - Hydrophobicity Score              : 43.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.0946
+HEADER 10 - Pocket volume (convex hull)       : 17.3153
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.5556
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   8256  CG2 ILE E 105      45.533 -20.380  81.587  0.00  0.00           C 0
+ATOM   8224   CD GLN E 100      39.202 -18.530  85.303  0.00  0.00           C 0
+ATOM   8222   CB GLN E 100      39.121 -20.322  83.435  0.00  0.00           C 0
+ATOM   8226  NE2 GLN E 100      39.536 -18.445  86.612  0.00  0.00           N 0
+ATOM   8225  OE1 GLN E 100      39.329 -17.581  84.515  0.54  6.43           O 0
+ATOM   8241    O MET E 103      41.494 -17.995  80.077  0.62  2.14           O 0
+ATOM   8250    N ILE E 105      44.965 -17.993  79.793  0.00  0.00           N 0
+ATOM   8223   CG GLN E 100      38.620 -19.863  84.835  0.00  0.00           C 0
+ATOM   8947   CB ALA E 211      47.092 -15.476  81.145  0.00  0.00           C 0
+ATOM   8973  CD1 ILE E 215      43.314 -10.484  81.591  0.00  0.00           C 0
+ATOM   8946    O ALA E 211      46.200 -12.157  80.938  0.00  0.00           O 0
+ATOM   8949   CA GLY E 212      47.756 -11.649  83.222  0.00  0.00           C 0
+ATOM   8948    N GLY E 212      47.764 -12.873  82.424  0.79  3.28           N 0
+ATOM   8245   CE MET E 103      38.544 -13.020  80.564  0.00  0.00           C 0
+ATOM   8242   CB MET E 103      38.887 -16.233  79.615  0.00  0.00           C 0
+ATOM   8247   CA GLY E 104      43.462 -16.173  79.294  0.00  0.00           C 0
+ATOM   8240    C MET E 103      41.230 -17.133  79.221  0.00  0.00           C 0
+ATOM   8246    N GLY E 104      42.135 -16.296  78.731  0.00  0.00           N 0
+ATOM   8945    C ALA E 211      47.082 -12.968  81.281  0.00  0.00           C 0
+ATOM   8640    O ALA E 157      41.514 -14.309  77.252  0.00  0.00           O 0
+TER
+END

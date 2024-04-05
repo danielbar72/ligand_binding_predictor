@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    63:
+HEADER 0  - Pocket Score                      : -0.0150
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.9318
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4700
+HEADER 5  - Mean B-factor of pocket residues  : 0.4194
+HEADER 6  - Hydrophobicity Score              : -9.5556
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 203.2663
+HEADER 10 - Pocket volume (convex hull)       : 11.7127
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0323
+ATOM  12073  NH2 ARG L  33      37.494 -11.606  22.846  0.00  5.47           N 0
+ATOM   3822   CA GLY D  67      42.680 -16.603  22.051  0.00  0.00           C 0
+ATOM  12043   CB GLU L  30      39.644 -12.976  20.134  0.00  0.00           C 0
+ATOM  12042    O GLU L  30      42.391 -11.928  21.423  0.72  2.14           O 0
+ATOM  11108  OE1 GLU K  45      35.326 -13.716  27.390  0.17  9.64           O 0
+ATOM  11090    O ALA K  42      40.500 -12.792  30.106  0.60  2.14           O 0
+ATOM  12070   NE ARG L  33      38.849 -10.061  23.885  0.67  5.47           N 0
+ATOM  11147  NH1 ARG K  49      38.110 -17.811  24.040  0.00  9.84           N 0
+ATOM  11114   CB GLU K  46      41.520 -16.230  29.169  0.00  0.00           C 0
+ATOM  11088   CA ALA K  42      40.366 -10.405  29.950  0.00  0.00           C 0
+ATOM  11091   CB ALA K  42      41.210  -9.712  28.873  0.00  0.00           C 0
+ATOM  12081   NE ARG L  34      43.811 -12.334  26.863  0.71  2.19           N 0
+ATOM  11118  OE2 GLU K  46      43.613 -17.014  26.662  0.59  4.29           O 0
+ATOM  11107   CD GLU K  45      35.551 -13.227  28.522  0.00  0.00           C 0
+ATOM  11109  OE2 GLU K  45      35.400 -12.006  28.783  0.73  8.57           O 0
+ATOM   3825    N HIS D  68      44.416 -14.937  21.824  0.43  2.19           N 0
+ATOM  12080   CD ARG L  34      43.527 -11.054  26.210  0.00  0.00           C 0
+ATOM  11144   CD ARG K  49      37.539 -19.230  26.464  0.00  0.00           C 0
+ATOM  11111   CA GLU K  46      40.203 -16.724  29.788  0.00  0.00           C 0
+ATOM  11106   CG GLU K  45      36.024 -14.169  29.624  0.00  0.00           C 0
+ATOM  12079   CG ARG L  34      44.079 -11.008  24.775  0.00  0.00           C 0
+ATOM  11110    N GLU K  46      39.488 -15.622  30.432  0.00  0.00           N 0
+ATOM  11105   CB GLU K  45      37.167 -13.596  30.458  0.00  0.00           C 0
+TER
+END

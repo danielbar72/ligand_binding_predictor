@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.1157
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7482
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4941
+HEADER 5  - Mean B-factor of pocket residues  : 0.2650
+HEADER 6  - Hydrophobicity Score              : 17.7778
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.5789
+HEADER 10 - Pocket volume (convex hull)       : 7.6024
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM    581  NE2 HIS A  68      67.308  -9.288  32.389  0.69  8.75           N 0
+ATOM   7585  OXT PHE G 128      67.964 -14.435  28.026  0.80  1.07           O 0
+ATOM   7226  OE1 GLU G  84      69.461 -12.536  32.644  0.00  0.00           O 0
+ATOM   7181    O ARG G  79      65.995 -14.672  31.983  0.79  3.21           O 0
+ATOM    585    O PRO A  69      68.667  -8.889  29.674  0.63  2.14           O 0
+ATOM    600    N LEU A  71      68.736  -8.795  25.318  0.73  3.28           N 0
+ATOM   7184   CD ARG G  79      63.558 -13.746  27.268  0.00  0.00           C 0
+ATOM   7581  CD2 PHE G 128      68.138 -13.592  24.759  0.00  0.00           C 0
+ATOM    590   CA ARG A  70      68.054  -7.512  27.235  0.00  0.00           C 0
+ATOM   7182   CB ARG G  79      64.211 -14.258  29.710  0.00  0.00           C 0
+ATOM    612   CB ARG A  72      64.514  -9.479  22.475  0.00  0.00           C 0
+ATOM    608    N ARG A  72      66.879  -9.086  23.103  0.56  1.09           N 0
+ATOM   7583  CE2 PHE G 128      67.184 -13.585  23.724  0.00  0.00           C 0
+ATOM    591    C ARG A  70      68.292  -7.622  25.758  0.00  0.00           C 0
+ATOM    619    N MET A  73      65.606  -6.494  23.109  0.74  1.09           N 0
+ATOM    624   CG MET A  73      63.611  -4.648  24.802  0.00  0.00           C 0
+ATOM    593   CB ARG A  70      67.478  -6.153  27.619  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1617
+HEADER 1  - Drug Score                        : 0.1904
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0286
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6959
+HEADER 5  - Mean B-factor of pocket residues  : 0.3152
+HEADER 6  - Hydrophobicity Score              : 5.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.0529
+HEADER 10 - Pocket volume (convex hull)       : 5.0999
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.9500
+ATOM    235   CG ARG A  32      -5.892 -13.043  -1.742  0.00  0.00           C 0
+ATOM    155   CB ARG A  28     -11.140 -13.617   0.226  0.00  0.00           C 0
+ATOM    154    O ARG A  28      -8.026 -13.724   0.940  0.00  0.00           O 0
+ATOM    240  NH2 ARG A  32      -8.955 -11.213  -1.851  0.72  5.47           N 0
+ATOM    156   CG ARG A  28     -12.302 -14.536  -0.251  0.00  0.00           C 0
+ATOM    212   CB LYS A  31      -7.264 -17.307   1.401  0.00  0.00           C 0
+ATOM    152   CA ARG A  28     -10.301 -14.237   1.340  0.00  0.00           C 0
+ATOM    157   CD ARG A  28     -13.049 -13.934  -1.456  0.00  0.00           C 0
+ATOM    213   CG LYS A  31      -6.839 -18.482   0.470  0.00  0.00           C 0
+ATOM    231   CA ARG A  32      -4.302 -14.338  -0.139  0.00  0.00           C 0
+ATOM    230    N ARG A  32      -5.283 -14.946   0.741  0.74  1.09           N 0
+ATOM   2007  CG1 VAL A 148     -11.529 -17.976   1.144  0.00  0.00           C 0
+ATOM    214   CD LYS A  31      -7.944 -19.427   0.079  0.00  0.00           C 0
+ATOM   1998    O GLY A 147     -12.674 -18.982  -2.346  0.75  4.29           O 0
+ATOM    215   CE LYS A  31      -7.337 -20.694  -0.610  0.00  0.00           C 0
+ATOM    216   NZ LYS A  31      -8.367 -21.239  -1.517  0.00  0.00           N 0
+TER
+END

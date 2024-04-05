@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.1305
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8518
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5657
+HEADER 5  - Mean B-factor of pocket residues  : 0.4280
+HEADER 6  - Hydrophobicity Score              : -0.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.5216
+HEADER 10 - Pocket volume (convex hull)       : 11.2555
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   6943  NH2 ARG D 177      47.860   9.930  69.062  0.77  4.37           N 0
+ATOM   9055    O ARG E 225      44.691   7.706  73.722  0.52  6.43           O 0
+ATOM   9380    O LEU E 269      48.021   7.310  69.539  0.69  1.07           O 0
+ATOM   9046    O GLN E 224      48.098   7.346  75.625  0.35  6.43           O 0
+ATOM   6942  NH1 ARG D 177      48.240  12.100  69.718  0.43  6.56           N 0
+ATOM   6941   CZ ARG D 177      47.473  11.193  69.117  0.00  0.00           C 0
+ATOM   9379    C LEU E 269      48.794   6.471  70.032  0.00  0.00           C 0
+ATOM   4907   CG PRO C 156      51.710   9.169  67.564  0.00  0.00           C 0
+ATOM   6938   CG ARG D 177      44.875  13.022  69.743  0.00  0.00           C 0
+ATOM   9367  OE1 GLN E 267      44.055   9.867  69.145  0.70  1.07           O 0
+ATOM   9069   CA PRO E 227      43.402  11.418  75.313  0.00  0.00           C 0
+ATOM   9066    O ALA E 226      44.324   9.659  77.044  0.30  5.36           O 0
+ATOM   9071    O PRO E 227      43.976  12.870  77.126  0.35  4.29           O 0
+ATOM   6934   CA ARG D 177      44.246  14.643  71.608  0.00  0.00           C 0
+ATOM   6936    O ARG D 177      45.301  15.853  73.411  0.21  6.43           O 0
+ATOM   6937   CB ARG D 177      45.167  14.332  70.447  0.00  0.00           C 0
+ATOM   9073   CG PRO E 227      42.228  11.016  73.290  0.00  0.00           C 0
+TER
+END

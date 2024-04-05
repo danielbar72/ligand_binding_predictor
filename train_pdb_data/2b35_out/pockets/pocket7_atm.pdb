@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.2378
+HEADER 1  - Drug Score                        : 0.0143
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 4.0315
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5530
+HEADER 5  - Mean B-factor of pocket residues  : 0.5114
+HEADER 6  - Hydrophobicity Score              : 40.6154
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3077
+HEADER 9  - Pocket volume (Monte Carlo)       : 510.6997
+HEADER 10 - Pocket volume (convex hull)       : 57.3600
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.4839
+HETATM11639  O7N NAD F 312      22.611 -15.040  50.101  0.00  0.00           O 0
+ATOM  10864  CG2 ILE F 215      14.658 -11.629  50.597  0.00  0.00           C 0
+ATOM  10820   CB PRO F 193      21.076 -11.360  48.621  0.00  0.00           C 0
+ATOM  10899  OE2 GLU F 219      16.715 -12.594  45.939  0.56  3.21           O 0
+ATOM  10826    O ILE F 194      21.247 -16.871  47.274  0.00  0.00           O 0
+ATOM  10823    N ILE F 194      22.464 -14.341  47.412  0.00  0.00           N 0
+ATOM  10832   CA ARG F 195      19.779 -17.359  44.919  0.00  0.00           C 0
+ATOM  10845    O THR F 196      18.470 -20.808  46.335  0.70  7.50           O 0
+ATOM  10837   CD ARG F 195      16.645 -16.346  44.223  0.00  0.00           C 0
+HETATM11641  C4N NAD F 312      25.128 -14.685  51.357  0.00  0.00           C 0
+ATOM  10487  CD2 PHE F 149      24.433 -11.566  53.371  0.00  0.00           C 0
+HETATM11637  C3N NAD F 312      24.572 -15.976  51.317  0.00  0.00           C 0
+HETATM11624  O1N NAD F 312      23.682 -20.233  50.495  0.00  0.00           O 0
+HETATM11640  N7N NAD F 312      22.883 -17.402  50.200  0.00  0.00           N 0
+ATOM  10151   CE MET F 103      17.649 -17.261  57.647  0.00  0.00           C 0
+ATOM  10589   CE MET F 161      22.671 -19.379  59.191  0.00  0.00           C 0
+ATOM  10889  CD1 LEU F 218      17.040  -9.559  52.301  0.00  0.00           C 0
+ATOM  10490   CZ PHE F 149      22.648 -10.025  53.646  0.00  0.00           C 0
+ATOM  10489  CE2 PHE F 149      23.460 -10.788  52.832  0.00  0.00           C 0
+ATOM  10554  CD1 TYR F 158      20.222 -13.613  57.296  0.00  0.00           C 0
+HETATM11632  C2D NAD F 312      26.083 -18.581  54.499  0.00  0.00           C 0
+ATOM  10097    O GLY F  96      24.064 -23.106  57.224  0.00  0.00           O 0
+HETATM11633  O2D NAD F 312      25.825 -17.913  55.727  0.00  0.00           O 0
+HETATM11622   O3 NAD F 312      24.116 -22.079  52.063  0.00  0.00           O 0
+HETATM11636  C2N NAD F 312      25.174 -17.028  52.023  0.00  0.00           C 0
+ATOM  10556  CE1 TYR F 158      21.358 -14.365  56.974  0.00  0.00           C 0
+ATOM  10150   SD MET F 103      18.720 -17.836  58.977  0.00  0.00           S 0
+ATOM  10559   OH TYR F 158      23.696 -14.799  57.354  0.00  0.00           O 0
+HETATM11638  C7N NAD F 312      23.315 -16.181  50.514  0.00  0.00           C 0
+TER
+END

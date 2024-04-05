@@ -1,0 +1,64 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0844
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    54
+HEADER 3  - Mean alpha-sphere radius          : 4.0169
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6012
+HEADER 5  - Mean B-factor of pocket residues  : 0.1748
+HEADER 6  - Hydrophobicity Score              : 8.9333
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 711.0399
+HEADER 10 - Pocket volume (convex hull)       : 188.7302
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 17.6667
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   3467    N ASN B 231       2.792 -18.954 -16.515  0.58  2.19           N 0
+ATOM   3471   CB ASN B 231       3.515 -20.007 -18.629  0.00  0.00           C 0
+ATOM   3517   CG PRO B 237       3.310 -14.116 -21.347  0.00  0.00           C 0
+ATOM   3470    O ASN B 231       5.515 -18.349 -17.434  0.56  2.14           O 0
+ATOM   3452    O GLY B 229      -1.019 -16.678 -15.427  0.67  4.29           O 0
+ATOM   3446  CG1 ILE B 228      -3.902 -13.922 -15.928  0.00  0.00           C 0
+ATOM   3699    O GLY B 262      -2.825 -13.544 -12.848  0.00  0.00           O 0
+ATOM   3701   CA GLY B 263      -2.544 -11.336 -11.228  0.00  0.00           C 0
+ATOM   3447  CG2 ILE B 228      -6.318 -13.895 -16.431  0.00  0.00           C 0
+ATOM   3463  CE3 TRP B 230       2.891 -14.965 -14.865  0.00  0.00           C 0
+ATOM   3455    C TRP B 230       2.146 -19.257 -15.394  0.00  0.00           C 0
+ATOM   3453    N TRP B 230      -0.110 -18.632 -14.762  0.00  0.00           N 0
+ATOM   3439   CG PRO B 227      -6.583 -13.744 -10.608  0.00  0.00           C 0
+ATOM   3438   CB PRO B 227      -7.248 -14.410 -11.748  0.00  0.00           C 0
+ATOM   3451    C GLY B 229      -1.143 -17.836 -15.016  0.00  0.00           C 0
+ATOM   3444    O ILE B 228      -4.003 -17.419 -16.842  0.00  0.00           O 0
+ATOM   3450   CA GLY B 229      -2.512 -18.454 -14.764  0.00  0.00           C 0
+ATOM   3700    N GLY B 263      -1.645 -11.789 -12.252  0.00  0.00           N 0
+ATOM   3697   CA GLY B 262      -0.718 -13.308 -13.903  0.00  0.00           C 0
+ATOM   3448  CD1 ILE B 228      -3.136 -13.412 -17.025  0.00  0.00           C 0
+ATOM   3465  CZ3 TRP B 230       3.630 -13.901 -15.406  0.00  0.00           C 0
+ATOM   3685    C ALA B 260       3.376 -10.019 -14.361  0.00  0.00           C 0
+ATOM   3686    O ALA B 260       4.371 -10.706 -14.502  0.00  0.00           O 0
+ATOM   3687   CB ALA B 260       4.264  -8.495 -16.188  0.00  0.00           C 0
+ATOM   3482   CE MET B 232       6.561 -24.531 -14.084  0.00  0.00           C 0
+ATOM   3408  OD2 ASP B 223      -0.446 -23.127 -13.162  0.00  0.00           O 0
+ATOM   3481   SD MET B 232       6.113 -22.775 -14.014  0.00  0.00           S 0
+ATOM   3491   NZ LYS B 233       5.467 -25.279 -18.271  0.00  0.00           N 0
+ATOM   3456    O TRP B 230       2.230 -20.339 -14.842  0.00  0.00           O 0
+ATOM   3407  OD1 ASP B 223      -0.996 -21.087 -13.553  0.00  0.00           O 0
+ATOM   3473  OD1 ASN B 231       5.188 -21.716 -18.611  0.00  0.00           O 0
+ATOM   3684   CA ALA B 260       3.269  -8.653 -15.027  0.00  0.00           C 0
+ATOM   3515    O PRO B 237       4.048  -9.667 -20.658  0.00  0.00           O 0
+ATOM   3545  OG1 THR B 241       3.281  -7.129 -19.383  0.00  0.00           O 0
+ATOM   3698    C GLY B 262      -1.817 -12.909 -12.922  0.00  0.00           C 0
+ATOM   3516   CB PRO B 237       3.222 -12.820 -20.691  0.00  0.00           C 0
+ATOM   3472   CG ASN B 231       4.221 -21.221 -19.192  0.00  0.00           C 0
+ATOM   3474  ND2 ASN B 231       3.748 -21.704 -20.322  0.00  0.00           N 0
+ATOM   3468   CA ASN B 231       3.737 -19.862 -17.120  0.00  0.00           C 0
+ATOM   3696    N GLY B 262       0.481 -12.510 -13.842  0.67  2.19           N 0
+ATOM   3674    O TYR B 259       1.260  -7.154 -13.830  0.41  8.57           O 0
+ATOM   3688    N ASP B 261       2.359 -10.410 -13.610  0.66  1.09           N 0
+TER
+END

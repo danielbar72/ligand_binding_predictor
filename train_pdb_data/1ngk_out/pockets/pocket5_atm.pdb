@@ -1,0 +1,68 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1812
+HEADER 1  - Drug Score                        : 0.0178
+HEADER 2  - Number of alpha spheres           :    62
+HEADER 3  - Mean alpha-sphere radius          : 3.8396
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4946
+HEADER 5  - Mean B-factor of pocket residues  : 0.4091
+HEADER 6  - Hydrophobicity Score              : 7.9091
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5455
+HEADER 9  - Pocket volume (Monte Carlo)       : 620.1411
+HEADER 10 - Pocket volume (convex hull)       : 199.9698
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.1290
+ATOM  10247    N HIS J  68      34.814  15.783  56.549  0.63  1.09           N 0
+ATOM  10270   CD ARG J  70      39.272  18.505  54.640  0.00  0.00           C 0
+ATOM  10244   CA GLY J  67      35.334  13.409  56.596  0.00  0.00           C 0
+ATOM  10250    O HIS J  68      35.637  16.423  54.016  0.57  1.07           O 0
+ATOM   9203   CD ARG I  70      37.988  12.876  58.926  0.00  0.00           C 0
+ATOM  10322  NH1 ARG J  74      39.857  12.410  50.226  0.18  4.37           N 0
+ATOM   9174  NH1 ARG I  66      46.587  13.306  51.783  0.43  9.84           N 0
+ATOM  10344   CG PRO J  77      44.218  15.770  44.035  0.00  0.00           C 0
+ATOM  10308    O MET J  73      42.216  18.074  47.180  0.62  6.43           O 0
+ATOM   9159    O GLN I  65      45.126  17.788  52.657  0.54  4.29           O 0
+ATOM   9180    N HIS I  68      40.982  17.392  59.274  0.58  4.37           N 0
+ATOM   9184   CB HIS I  68      39.613  16.518  61.129  0.00  0.00           C 0
+ATOM   9187  CD2 HIS I  68      37.650  18.205  61.334  0.00  0.00           C 0
+ATOM   9145   CB SER I  63      44.790  21.018  60.083  0.00  0.00           C 0
+ATOM   9186  ND1 HIS I  68      39.518  18.738  62.333  0.35  6.56           N 0
+ATOM   9188  CE1 HIS I  68      38.662  19.718  62.561  0.00  0.00           C 0
+ATOM   9144    O SER I  63      43.848  20.442  56.932  0.72  6.43           O 0
+ATOM   9256  NH2 ARG I  74      43.222  10.374  53.916  0.53  3.28           N 0
+ATOM   9255  NH1 ARG I  74      43.136  12.126  55.416  0.55  5.47           N 0
+ATOM  10254  CD2 HIS J  68      34.896  19.422  58.848  0.00  0.00           C 0
+ATOM   9189  NE2 HIS I  68      37.519  19.418  61.967  0.69  2.19           N 0
+HETATM13375  O1A HEM J 700      38.889   9.352  42.570  0.83  8.57           O 0
+HETATM13372  CAA HEM J 700      38.399  12.219  41.666  0.00  0.00           C 0
+HETATM13403  O2D HEM J 700      37.410  11.616  47.622  0.57  7.50           O 0
+ATOM  10316    O ARG J  74      40.401  16.057  44.743  0.00  0.00           O 0
+ATOM   9177   CA GLY I  67      41.860  18.095  57.115  0.00  0.00           C 0
+ATOM   9178    C GLY I  67      42.074  17.622  58.542  0.00  0.00           C 0
+ATOM   9204   NE ARG I  70      38.330  11.944  57.850  0.57  2.19           N 0
+ATOM   9168    O ARG I  66      42.654  15.696  55.939  0.48  5.36           O 0
+ATOM   9183    O HIS I  68      41.518  14.647  59.558  0.00  0.00           O 0
+ATOM   9166   CA ARG I  66      44.714  16.562  55.096  0.00  0.00           C 0
+ATOM   9173   CZ ARG I  66      46.521  12.764  52.996  0.00  0.00           C 0
+ATOM  10235    O ARG J  66      36.833  12.486  54.418  0.38  1.07           O 0
+ATOM  10314   CA ARG J  74      39.775  16.826  46.915  0.00  0.00           C 0
+ATOM  10354  CE1 PHE J  78      40.969  14.740  41.174  0.00  0.00           C 0
+ATOM  10356   CZ PHE J  78      41.581  13.614  40.613  0.00  0.00           C 0
+ATOM  10271   NE ARG J  70      40.463  19.339  54.470  0.60  7.66           N 0
+ATOM  10269   CG ARG J  70      38.060  19.134  53.952  0.00  0.00           C 0
+ATOM  10273  NH1 ARG J  70      41.639  17.776  53.211  0.62  3.28           N 0
+ATOM  10309   CB MET J  73      41.763  19.798  49.886  0.00  0.00           C 0
+ATOM  10321   CZ ARG J  74      38.875  13.078  50.843  0.00  0.00           C 0
+ATOM  10323  NH2 ARG J  74      38.399  12.652  52.009  0.44  2.19           N 0
+ATOM  10251   CB HIS J  68      34.944  18.243  56.531  0.00  0.00           C 0
+ATOM  10319   CD ARG J  74      38.842  14.706  49.014  0.00  0.00           C 0
+ATOM  10307    C MET J  73      41.238  18.601  47.715  0.00  0.00           C 0
+HETATM13374  CGA HEM J 700      37.825  10.031  42.610  0.00  0.00           C 0
+TER
+END

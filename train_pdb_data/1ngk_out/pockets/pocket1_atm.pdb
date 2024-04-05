@@ -1,0 +1,98 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.3419
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :   121
+HEADER 3  - Mean alpha-sphere radius          : 3.8879
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4787
+HEADER 5  - Mean B-factor of pocket residues  : 0.2751
+HEADER 6  - Hydrophobicity Score              : 26.7692
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0769
+HEADER 9  - Pocket volume (Monte Carlo)       : 1201.8116
+HEADER 10 - Pocket volume (convex hull)       : 582.8558
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 9.2000
+HEADER 13 - Number of apolar alpha sphere     :    30
+HEADER 14 - Proportion of apolar alpha sphere : 0.2479
+ATOM   6059  NH2AARG F  70      37.749  -3.853  52.615  0.00  0.00           N 0
+ATOM   9276   CB PRO I  77      43.160   1.008  54.585  0.00  0.00           C 0
+ATOM   9273   CA PRO I  77      42.413   0.109  55.590  0.00  0.00           C 0
+ATOM   9275    O PRO I  77      43.595  -1.939  55.405  0.00  0.00           O 0
+ATOM   6076   NE ARG F  72      38.845  -4.635  59.212  0.69  3.28           N 0
+ATOM   9297   NE ARG I  79      40.995  -8.224  58.996  0.00  0.00           N 0
+ATOM   6087   CE MET F  73      38.172   0.122  55.139  0.00  0.00           C 0
+ATOM  11419   CG ARG K  79      36.080 -10.964  52.743  0.00  0.00           C 0
+ATOM  11421   NE ARG K  79      36.583 -10.236  55.040  0.00  0.00           N 0
+ATOM  11420   CD ARG K  79      35.652 -10.092  53.923  0.00  0.00           C 0
+ATOM   6057  NH1AARG F  70      36.800  -4.473  50.617  0.00  0.00           N 0
+ATOM  11399    O PRO K  77      40.560 -11.219  48.481  0.32  7.50           O 0
+ATOM   6055   CZAARG F  70      36.877  -3.626  51.639  0.00  0.00           C 0
+ATOM  11418   CB ARG K  79      35.118 -10.945  51.561  0.00  0.00           C 0
+ATOM   9295   CG ARG I  79      42.700  -6.456  59.445  0.00  0.00           C 0
+ATOM   9270    O ALA I  76      40.853  -0.559  57.665  0.59  2.14           O 0
+ATOM   6041   CAAARG F  70      32.007  -3.593  52.560  0.00  0.00           C 0
+ATOM  11029   CA VAL K  35      35.086  -7.920  43.261  0.00  0.00           C 0
+ATOM  11020    O ARG K  34      35.595  -5.216  43.718  0.59  8.57           O 0
+ATOM  11410  CD2 PHE K  78      38.913 -11.239  45.081  0.00  0.00           C 0
+ATOM  11424  NH2 ARG K  79      37.311 -11.056  57.066  0.52  1.09           N 0
+ATOM   9300  NH2 ARG I  79      38.755  -8.672  59.281  0.50  1.09           N 0
+ATOM   2780   NE ARG C  72      38.998 -13.652  54.528  0.72  4.37           N 0
+ATOM   2764  NH2 ARG C  70      46.131 -11.224  52.956  0.00  0.00           N 0
+ATOM   2791   CE MET C  73      44.473 -14.362  51.268  0.00  0.00           C 0
+ATOM  11394    O ALA K  76      40.675 -14.647  50.289  0.48  4.29           O 0
+ATOM   8905   CA VAL I  35      51.751  -3.088  56.495  0.00  0.00           C 0
+ATOM   2745  CE1 HIS C  68      50.073  -8.102  58.116  0.00  0.00           C 0
+ATOM   8910  CG2 VAL I  35      51.399  -4.118  58.785  0.00  0.00           C 0
+ATOM   8909  CG1 VAL I  35      50.221  -1.980  58.168  0.00  0.00           C 0
+ATOM   9286  CD2 PHE I  78      47.017  -0.535  55.978  0.00  0.00           C 0
+ATOM   9296   CD ARG I  79      42.359  -7.958  59.452  0.00  0.00           C 0
+ATOM   2763  NH1 ARG C  70      47.023 -10.716  55.006  0.00  0.00           N 0
+ATOM   2750    O PRO C  69      49.144 -10.939  59.407  0.49  4.29           O 0
+ATOM   2755   CA ARG C  70      48.097 -13.202  58.066  0.00  0.00           C 0
+ATOM   9294   CB ARG I  79      44.073  -6.142  60.066  0.00  0.00           C 0
+ATOM   2746  NE2 HIS C  68      50.316  -7.532  59.284  0.00  0.00           N 0
+ATOM   6075   CD ARG F  72      37.646  -5.292  58.694  0.00  0.00           C 0
+ATOM   6074   CG ARG F  72      36.435  -4.363  58.747  0.00  0.00           C 0
+ATOM  11031    O VAL K  35      37.297  -8.685  42.776  0.00  0.00           O 0
+ATOM   6030  CE1 HIS F  68      32.820  -6.153  47.839  0.00  0.00           C 0
+ATOM  11033  CG1 VAL K  35      35.005 -10.294  44.182  0.00  0.00           C 0
+ATOM  11404   CA PHE K  78      38.095 -12.359  47.971  0.00  0.00           C 0
+ATOM  11407   CB PHE K  78      37.453 -12.620  46.588  0.00  0.00           C 0
+ATOM  11821  OXT PHE K 128      30.346  -9.161  52.870  0.63  4.29           O 0
+ATOM   6061    N LEU F  71      31.255  -4.281  54.742  0.00  0.00           N 0
+ATOM  11813    O PHE K 128      31.672 -10.699  53.325  0.00  0.00           O 0
+ATOM   2779   CD ARG C  72      39.757 -13.352  55.743  0.00  0.00           C 0
+ATOM   2778   CG ARG C  72      40.732 -14.500  56.079  0.00  0.00           C 0
+ATOM   9699    O PHE I 128      46.282 -10.134  62.782  0.60  2.14           O 0
+ATOM   9707  OXT PHE I 128      44.673  -8.747  62.845  0.86  1.07           O 0
+ATOM   6073   CB ARG F  72      35.348  -4.614  57.683  0.00  0.00           C 0
+ATOM  11414    N ARG K  79      36.371 -11.775  49.581  0.00  0.00           N 0
+ATOM  11417    O ARG K  79      33.338 -11.616  49.347  0.55  3.21           O 0
+ATOM   6035    O PRO F  69      31.322  -5.397  50.519  0.47  1.07           O 0
+ATOM   6049   CGAARG F  70      33.808  -3.028  50.832  0.00  0.00           C 0
+ATOM   6043    CAARG F  70      31.770  -3.282  54.033  0.00  0.00           C 0
+ATOM  11817  CD2 PHE K 128      31.492  -9.110  56.371  0.00  0.00           C 0
+ATOM   2773    N ARG C  72      43.727 -14.961  58.470  0.57  1.09           N 0
+ATOM   9704  CE1 PHE I 128      41.813 -12.267  61.892  0.00  0.00           C 0
+ATOM   9702  CD1 PHE I 128      43.024 -11.893  62.496  0.00  0.00           C 0
+ATOM   2765    N LEU C  71      46.388 -14.258  59.445  0.69  2.19           N 0
+ATOM   2756    C ARG C  70      47.092 -14.348  58.328  0.00  0.00           C 0
+ATOM   8907    O VAL I  35      50.790  -1.436  55.044  0.00  0.00           O 0
+ATOM   9293    O ARG I  79      46.416  -5.071  61.392  0.52  3.21           O 0
+ATOM   9283   CB PHE I  78      46.106  -1.046  58.272  0.00  0.00           C 0
+ATOM   9290    N ARG I  79      44.593  -3.874  59.214  0.52  4.37           N 0
+ATOM   9280   CA PHE I  78      44.800  -1.808  57.932  0.00  0.00           C 0
+ATOM  11034  CG2 VAL K  35      33.117  -8.703  44.616  0.00  0.00           C 0
+ATOM   6069    N ARG F  72      32.997  -4.202  57.019  0.56  1.09           N 0
+ATOM  11819  CE2 PHE K 128      32.413  -8.920  57.386  0.00  0.00           C 0
+ATOM   8896    O ARG I  34      52.276  -4.829  54.364  0.34  5.36           O 0
+ATOM   9281    C PHE I  78      44.287  -2.577  59.144  0.00  0.00           C 0
+ATOM   6031  NE2 HIS F  68      32.040  -7.143  47.428  0.51  1.09           N 0
+ATOM   2777   CB ARG C  72      41.857 -14.138  57.049  0.00  0.00           C 0
+ATOM   2784    N MET C  73      44.315 -15.682  55.793  0.74  2.19           N 0
+TER
+END

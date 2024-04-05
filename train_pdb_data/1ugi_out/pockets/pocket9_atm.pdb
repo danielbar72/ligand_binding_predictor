@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0679
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1932
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6526
+HEADER 5  - Mean B-factor of pocket residues  : 0.2180
+HEADER 6  - Hydrophobicity Score              : 11.3333
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 322.4678
+HEADER 10 - Pocket volume (convex hull)       : 8.2234
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5151   OG SER H  50      15.409  71.238  46.029  0.97  4.29           O 0
+ATOM   4838    O GLN H  15      10.520  66.890  50.288  0.80  7.50           O 0
+ATOM   5135  OD1 ASP H  48      15.380  68.849  46.309  0.72  2.14           O 0
+ATOM   4831   CG LYS H  14      14.598  70.287  50.176  0.00  0.00           C 0
+ATOM   5150   CB SER H  50      14.733  72.000  45.058  0.00  0.00           C 0
+ATOM   4856   CB VAL H  17       8.500  61.107  47.399  0.00  0.00           C 0
+ATOM   4883  NE2AGLN H  19      10.286  57.948  44.748  0.48  9.84           N 0
+ATOM   5121   CB TYR H  47      14.342  62.391  42.986  0.00  0.00           C 0
+ATOM   5120    O TYR H  47      13.440  64.364  45.159  0.39  9.64           O 0
+ATOM   5117    N TYR H  47      14.439  61.642  45.293  0.61  1.09           N 0
+ATOM   4851  CD2 LEU H  16      13.048  66.217  48.624  0.00  0.00           C 0
+ATOM   4852    N VAL H  17       9.995  62.508  48.813  0.76  2.19           N 0
+ATOM   5146    N SER H  50      14.487  70.090  43.545  0.66  1.09           N 0
+ATOM   5137    N GLU H  49      13.985  67.349  43.497  0.51  1.09           N 0
+ATOM   4855    O VAL H  17      11.369  60.149  47.929  0.00  0.00           O 0
+ATOM   4845   CA LEU H  16      11.266  64.195  49.929  0.00  0.00           C 0
+ATOM   4858  CG2 VAL H  17       7.365  62.119  47.411  0.00  0.00           C 0
+ATOM   5141   CB GLU H  49      12.364  68.308  41.886  0.00  0.00           C 0
+TER
+END

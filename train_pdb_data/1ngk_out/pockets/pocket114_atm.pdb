@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   114:
+HEADER 0  - Pocket Score                      : -0.1621
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8577
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5223
+HEADER 5  - Mean B-factor of pocket residues  : 0.4176
+HEADER 6  - Hydrophobicity Score              : 19.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.5634
+HEADER 10 - Pocket volume (convex hull)       : 4.3911
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   4603   CZ ARG E  34      65.890  36.940  16.873  0.00  0.00           C 0
+ATOM   4563    O GLU E  30      61.204  37.509  16.432  0.00  0.00           O 0
+ATOM   4564   CB GLU E  30      61.140  40.741  15.750  0.00  0.00           C 0
+ATOM   4605  NH2 ARG E  34      66.381  37.907  16.123  0.00  0.00           N 0
+ATOM   4575  CG2 VAL E  31      60.450  39.538  20.592  0.00  0.00           C 0
+ATOM   4604  NH1 ARG E  34      66.351  36.740  18.085  0.00  0.00           N 0
+ATOM   4562    C GLU E  30      60.465  38.467  16.638  0.00  0.00           C 0
+ATOM   5090  OE1 GLU E  84      61.519  34.475  23.178  0.46  8.57           O 0
+ATOM   4574  CG1 VAL E  31      59.586  37.321  21.384  0.00  0.00           C 0
+ATOM   4570   CA VAL E  31      59.990  37.694  18.901  0.00  0.00           C 0
+ATOM   4601   CD ARG E  34      64.211  35.046  17.138  0.00  0.00           C 0
+ATOM   5081  CG2 ILE E  83      61.292  38.558  24.262  0.00  0.00           C 0
+ATOM   4572    O VAL E  31      59.822  35.278  18.788  0.67  1.07           O 0
+ATOM   5082  CD1 ILE E  83      63.775  38.641  26.445  0.00  0.00           C 0
+TER
+END

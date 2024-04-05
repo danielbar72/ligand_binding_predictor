@@ -5,24 +5,14 @@ from sklearn.metrics import accuracy_score
 from local_densities import calculate_local_density
 from pockets import find_pockets
 from neighboring_final import residues_within_distance
-import os, sys
+import os, sys, warnings
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
-from Bio.PDB import PDBParser, PDBIO
-from Bio.PDB.Atom import Atom
-from Bio.PDB.Residue import Residue
-import warnings
 
 def load_pdb_file(file_path):
-    # Code to load and process the PDB file
-    # For example, you can use the Biopython library to parse the PDB file
-    from Bio.PDB import PDBParser
 
     parser = PDBParser()
     structure = parser.get_structure("pdb", file_path)
-
-    # Process the structure and extract relevant features
-    # For example, you can extract the coordinates of atoms or residues
 
     return structure
 
@@ -36,15 +26,13 @@ def extract_features(pdb_file):
     # Get residues within distance of ligand
     residues_near_ligand = residues_within_distance(pdb_file, 6)
 
-    # Calculate solvent accessibility
-    #solvent_accessibility = extract_solvent_accessibility(pdb_file)
-
     # Calculate local density
     local_densities = calculate_local_density(pdb_file)
 
     df = pd.DataFrame(columns=['name', 'pocket_number', 'local_density', 'hydrophobicity' ,'is_ligand_binding'])
     structure = load_pdb_file(pdb_file)
 
+    # Hydrophobicity of each AA
     amino_acid_hydrophobicity = {
     'ALA': 1.8,
     'ILE': 4.5,
@@ -68,6 +56,7 @@ def extract_features(pdb_file):
     'GLY': -0.4
     }
 
+    # Prepare a dataframe
     for r in structure.get_residues():
         if not is_aa(r):
             continue
@@ -77,6 +66,7 @@ def extract_features(pdb_file):
         local_density = local_densities.get(name, 0)
         is_ligand_binding = name in residues_near_ligand
         hydrophobicity = amino_acid_hydrophobicity[r.resname]
+
         for id, residues in pockets.items():
             if name in residues:
                 pocket_number = id
@@ -85,25 +75,6 @@ def extract_features(pdb_file):
                           'is_ligand_binding': is_ligand_binding}, ignore_index=True)
 
     return df
-        
-# Extract labels from the PDB file
-def extract_labels(pdb_file, ligand_distance=5):
-    # Get residues within distance of ligand
-    residues_near_ligand = residues_within_distance(pdb_file, ligand_distance)
-
-    # Extract labels for each residue
-    labels = {}
-    parser = PDBParser()
-    structure = parser.get_structure("pdb", pdb_file)
-    for model in structure:
-        for chain in model:
-            for residue in chain:
-                residue_id = residue.id[1]
-                residue_chain = chain.id
-                label = 1 if residue in residues_near_ligand else 0
-                labels[(residue_chain, residue_id)] = label
-
-    return labels
 
 
 def prepare_dataset(pdb_files_dir):
@@ -128,7 +99,7 @@ def train_model(X_train, y_train, X_test, y_test):
 
     accuracy = accuracy_score(y_test, y_pred)
 
-    # print("Accuracy:", accuracy)
+    print("Accuracy on the training data: ", accuracy)
 
     return rf_classifier
 
@@ -142,21 +113,9 @@ def predict_binding_sites(pdb_file, model):
     X = df[['pocket_number', 'local_density', 'hydrophobicity']]
     y = df['is_ligand_binding']
 
-    
 
     predicted_labels = model.predict(X)
 
-    df_results = pd.DataFrame({'y_test': y, 'y_pred': predicted_labels})
-
-    print("Final model")
-    print(df_results[df_results['y_test'] == 1])
-    print("______________")
-    print(df_results[df_results['y_pred'] == 1])
-
-    accuracy = accuracy_score(y, predicted_labels)
-
-    print("Accuracy:", accuracy)
-    
     df['ligand_binding_predicted'] = predicted_labels
 
     df = df[df['ligand_binding_predicted'] == 1][['name', 'pocket_number']]
@@ -172,51 +131,11 @@ def predict_binding_sites(pdb_file, model):
             ret_dict[pocket_num].append(name)
     return {k: ret_dict[k] for k in sorted(ret_dict.keys())}
 
-
-#from Bio.PDB import PDBParser, PDBIO
-#import matplotlib.colors as mpl_colors
-
-
-def color_residues(pdb_input_file, model):
-    # Load the PDB file
-    parser = PDBParser(QUIET=True)  # Suppress PDB warnings
-    structure = parser.get_structure("protein", pdb_input_file)
-
-    highlighted_residues = [] 
-    # Define the residues to be highlighted
-    predicted_sites = predict_binding_sites(pdb_input_file, model)
-    print(predicted_sites)
-    for pocket_num, residues in predicted_sites.items():
-        if pocket_num == 1:
-            for r in residues:
-                highlighted_resi = r[3:]
-                highlighted_residues.append(highlighted_resi)
-    print(highlighted_resi)
-
-    # Color the residues
-    for current_model in structure:
-        for chain in current_model:
-            for residue in chain:
-                print(residue.id)
-                if residue.id[1] in highlighted_residues:
-                    # Add B-factor to residues
-                    for atom in residue:
-                        atom.set_bfactor(9999)  # Set a high B-factor to highlight residue
-                        # You can adjust the B-factor value to control the color intensity
-
-    # Save the modified PDB file
-    io = PDBIO()
-    io.set_structure(structure)
-    io.save("output.pdb")
-
-
-
 # Main function
 def main(pdb_input_file):
 
     # Prepare the dataset
-    # pdb_files_dir = "ligand_protein_pdb"
-    pdb_files_dir = "train"
+    pdb_files_dir = "train_pdb_data"
     df = prepare_dataset(pdb_files_dir)
 
     # True/False needs to be as 1 or 0
@@ -258,7 +177,8 @@ if __name__ == "__main__":
 
     # Ignore warnings
     warnings.filterwarnings("ignore")
-    if len(sys.argv) == 2:  # One argument is the script name itself, so we check if the count is 2
+    # Has to be exactly one cmd line argument
+    if len(sys.argv) == 2:
         file_path = sys.argv[1]
         if not os.path.exists(file_path):
             print(f"The file '{file_path}' does not exist.")

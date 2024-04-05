@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.1042
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8416
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5131
+HEADER 5  - Mean B-factor of pocket residues  : 0.1973
+HEADER 6  - Hydrophobicity Score              : 32.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.0541
+HEADER 10 - Pocket volume (convex hull)       : 11.2374
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   3259    O TRP E  68      19.293  30.438  32.568  0.00  0.00           O 0
+ATOM   3387    O LEU E  84      20.201  32.677  29.600  0.50  8.57           O 0
+ATOM   3262  CD1 TRP E  68      16.433  28.514  30.804  0.00  0.00           C 0
+ATOM   3264  NE1 TRP E  68      15.210  29.022  31.188  0.00  0.00           N 0
+ATOM   3383   CE MET E  83      16.163  32.478  33.982  0.00  0.00           C 0
+ATOM   3380   CB MET E  83      18.580  34.625  33.560  0.00  0.00           C 0
+ATOM   4053   CE LYS F  82      16.222  37.878  29.699  0.00  0.00           C 0
+ATOM   4054   NZ LYS F  82      14.750  37.777  29.440  0.36  5.47           N 0
+ATOM   2996  ND2 ASN E  35      11.396  34.368  33.661  0.50  3.28           N 0
+ATOM   4052   CD LYS F  82      16.469  38.202  31.162  0.00  0.00           C 0
+ATOM   2995  OD1 ASN E  35      12.810  34.170  35.404  0.64  3.21           O 0
+ATOM   3381   CG MET E  83      17.547  34.769  34.673  0.00  0.00           C 0
+ATOM   2993   CB ASN E  35      11.798  32.176  34.616  0.00  0.00           C 0
+ATOM   3267  CZ2 TRP E  68      14.023  29.200  33.385  0.00  0.00           C 0
+ATOM   3000    O LYS E  36       9.790  28.615  31.653  0.00  0.00           O 0
+ATOM   2994   CG ASN E  35      12.044  33.669  34.589  0.00  0.00           C 0
+TER
+END

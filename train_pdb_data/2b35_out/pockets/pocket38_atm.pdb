@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0203
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8022
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5002
+HEADER 5  - Mean B-factor of pocket residues  : 0.6345
+HEADER 6  - Hydrophobicity Score              : 1.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 377.5646
+HEADER 10 - Pocket volume (convex hull)       : 29.7463
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2293  OD2 ASP B  52      25.298 -10.862 -34.516  0.00  0.00           O 0
+ATOM   2326   CA LYS B  57      20.961  -6.133 -35.790  0.00  0.00           C 0
+ATOM   2289    O ASP B  52      21.358 -13.253 -34.599  0.00  0.00           O 0
+ATOM   2287   CA ASP B  52      23.055 -12.234 -33.220  0.00  0.00           C 0
+ATOM   2329   CB LYS B  57      22.030  -6.079 -36.882  0.00  0.00           C 0
+ATOM   2282    O THR B  51      21.607 -10.273 -31.815  0.39  4.29           O 0
+ATOM   2325    N LYS B  57      19.637  -6.412 -36.340  0.68  1.09           N 0
+ATOM   2332   CE LYS B  57      23.972  -4.190 -38.459  0.00  0.00           C 0
+ATOM   2337    O ALA B  58      23.986  -4.547 -32.182  0.52  8.57           O 0
+ATOM   2308    O LEU B  54      17.959 -11.416 -34.823  0.41  7.50           O 0
+ATOM   2316    O PRO B  55      16.399  -9.688 -37.493  0.00  0.00           O 0
+ATOM   2334    N ALA B  58      21.889  -4.782 -34.017  0.60  3.28           N 0
+ATOM   2323    O ALA B  56      18.898  -7.370 -34.432  0.62  1.07           O 0
+ATOM   2340   CA PRO B  59      25.126  -2.023 -31.609  0.00  0.00           C 0
+ATOM   2339    N PRO B  59      23.860  -2.292 -32.318  0.59  1.09           N 0
+ATOM   2344   CG PRO B  59      24.347  -0.060 -32.792  0.00  0.00           C 0
+ATOM   2333   NZ LYS B  57      23.496  -2.766 -38.294  0.44  8.75           N 0
+ATOM   2336    C ALA B  58      23.374  -3.533 -32.501  0.00  0.00           C 0
+ATOM   2322    C ALA B  56      18.717  -7.044 -35.614  0.00  0.00           C 0
+ATOM   2284  OG1 THR B  51      24.521  -9.636 -29.322  0.61  2.14           O 0
+ATOM   2258  OE1 GLN B  48      27.964  -8.942 -31.559  0.30  7.50           O 0
+TER
+END

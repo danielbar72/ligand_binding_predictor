@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0506
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9286
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6282
+HEADER 5  - Mean B-factor of pocket residues  : 0.2883
+HEADER 6  - Hydrophobicity Score              : 22.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.5468
+HEADER 10 - Pocket volume (convex hull)       : 8.4584
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1885  CD1 TYR C  65      37.632  43.966  22.479  0.00  0.00           C 0
+ATOM   1888  CE2 TYR C  65      38.326  45.611  24.578  0.00  0.00           C 0
+ATOM   1886  CD2 TYR C  65      38.451  44.240  24.704  0.00  0.00           C 0
+ATOM   1380  CD1 LEU C   4      42.816  43.042  19.117  0.00  0.00           C 0
+ATOM   1887  CE1 TYR C  65      37.507  45.346  22.347  0.00  0.00           C 0
+ATOM   1889   CZ TYR C  65      37.854  46.161  23.401  0.00  0.00           C 0
+ATOM   1379   CG LEU C   4      43.084  41.763  19.921  0.00  0.00           C 0
+ATOM   1372  OD1 ASN C   3      43.532  38.391  23.769  0.56  3.21           O 0
+ATOM   1370   CB ASN C   3      45.633  39.392  24.346  0.00  0.00           C 0
+ATOM   1883   CB TYR C  65      38.238  41.898  23.789  0.00  0.00           C 0
+ATOM   1873    O GLU C  64      37.788  40.628  26.544  0.36  6.43           O 0
+ATOM   1882    O TYR C  65      38.400  39.197  23.675  0.50  5.36           O 0
+ATOM   1884   CG TYR C  65      38.098  43.397  23.652  0.00  0.00           C 0
+ATOM   1374    N LEU C   4      45.390  39.919  21.343  0.00  0.00           N 0
+ATOM   1363   CB THR C   2      47.780  43.150  21.839  0.00  0.00           C 0
+ATOM   1366    N ASN C   3      47.436  40.580  23.163  0.00  0.00           N 0
+ATOM   1381  CD2 LEU C   4      41.835  40.902  19.914  0.00  0.00           C 0
+TER
+END

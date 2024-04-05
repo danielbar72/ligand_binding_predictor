@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : -0.0279
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0270
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5066
+HEADER 5  - Mean B-factor of pocket residues  : 0.2960
+HEADER 6  - Hydrophobicity Score              : 6.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.3958
+HEADER 10 - Pocket volume (convex hull)       : 2.3735
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   9000   CG ARG I  47      50.831  12.427  54.555  0.00  0.00           C 0
+ATOM   9174  NH1 ARG I  66      46.587  13.306  51.783  0.43  9.84           N 0
+ATOM   9004  NH1 ARG I  47      50.856  10.842  51.484  0.00  0.00           N 0
+ATOM   9001   CD ARG I  47      49.682  11.584  53.973  0.00  0.00           C 0
+ATOM   9171   CD ARG I  66      47.303  14.868  54.023  0.00  0.00           C 0
+ATOM   9160   CB GLN I  65      47.949  19.110  53.483  0.00  0.00           C 0
+ATOM   9031   SD MET I  50      52.825  17.367  55.405  0.00  0.00           S 0
+ATOM   9164  NE2 GLN I  65      48.542  19.814  50.629  0.77  3.28           N 0
+ATOM   9161   CG GLN I  65      48.943  20.165  52.997  0.00  0.00           C 0
+ATOM   1723  NH2 ARG B  74      54.231  19.498  52.508  0.00  0.00           N 0
+ATOM   1684  NH1 ARG B  70      55.065  16.676  49.651  0.52  7.66           N 0
+ATOM   1720   NE ARG B  74      52.723  21.040  51.739  0.44  1.09           N 0
+ATOM   8994  OE2 GLU I  46      55.186  15.117  51.567  0.42  6.43           O 0
+ATOM   1679   CB ARG B  70      54.458  20.416  46.597  0.00  0.00           C 0
+ATOM   1709   CB MET B  73      50.165  20.599  46.660  0.00  0.00           C 0
+ATOM   1681   CD ARG B  70      55.076  18.017  47.147  0.00  0.00           C 0
+ATOM   1710   CG MET B  73      49.207  19.591  47.348  0.00  0.00           C 0
+TER
+END

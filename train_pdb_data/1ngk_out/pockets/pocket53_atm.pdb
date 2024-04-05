@@ -1,0 +1,71 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : 0.0023
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    89
+HEADER 3  - Mean alpha-sphere radius          : 4.1532
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4619
+HEADER 5  - Mean B-factor of pocket residues  : 0.3994
+HEADER 6  - Hydrophobicity Score              : -13.2353
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 3.4706
+HEADER 9  - Pocket volume (Monte Carlo)       : 759.9976
+HEADER 10 - Pocket volume (convex hull)       : 168.2072
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 5.2500
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.0899
+ATOM  10184   CD ARG J  60      23.917  13.404  58.646  0.00  0.00           C 0
+ATOM  10187  NH1 ARG J  60      22.999  14.920  60.766  0.00  0.00           N 0
+ATOM  10185   NE ARG J  60      22.663  14.141  58.634  0.58  9.84           N 0
+ATOM  10183   CG ARG J  60      23.881  12.069  57.909  0.00  0.00           C 0
+ATOM   9761  OD2 ASP J   7      13.356  10.756  53.273  0.00  0.00           O 0
+ATOM  10169    C GLY J  58      20.947  11.136  53.758  0.00  0.00           C 0
+ATOM   5811   CA GLY F  43      18.036   5.207  57.758  0.00  0.00           C 0
+ATOM  10171    N PRO J  59      21.402   9.891  53.602  0.00  0.00           N 0
+ATOM  10186   CZ ARG J  60      22.253  14.849  59.681  0.00  0.00           C 0
+ATOM   5787  OD2AASP F  40      14.304  10.490  61.200  0.00  0.00           O 0
+ATOM   5809   CB ALA F  42      14.322   6.508  59.871  0.00  0.00           C 0
+ATOM   5810    N GLY F  43      17.139   5.623  58.825  0.67  1.09           N 0
+ATOM  10178    N ARG J  60      24.181  10.187  55.887  0.00  0.00           N 0
+HETATM13170  O1A HEM F 700      23.568   5.570  60.932  0.63  1.07           O 0
+ATOM  10222  OE2 GLU J  64      27.013   8.116  59.579  0.57  1.07           O 0
+ATOM   5835  OE1 GLU F  46      16.636   3.766  53.254  0.41  4.29           O 0
+ATOM   5808    O ALA F  42      15.820   3.799  58.672  0.62  5.36           O 0
+ATOM   5836  OE2 GLU F  46      14.637   3.048  52.681  0.38  9.64           O 0
+ATOM   5807    C ALA F  42      16.108   4.870  59.205  0.00  0.00           C 0
+ATOM   5773    NAASP F  40      17.821  10.340  64.379  0.00  0.00           N 0
+ATOM  10188  NH2 ARG J  60      21.087  15.482  59.646  0.00  0.00           N 0
+ATOM   5779    OAASP F  40      18.272   8.294  62.156  0.30  5.36           O 0
+ATOM   5757    NAASP F  39      20.465  10.802  66.065  0.58  4.37           N 0
+ATOM   5783   CGAASP F  40      15.132   9.743  61.770  0.00  0.00           C 0
+ATOM   5785  OD1AASP F  40      15.053   8.493  61.784  0.00  0.00           O 0
+ATOM   5771  OD2AASP F  39      20.017  14.498  66.142  0.61  9.64           O 0
+ATOM   5747   CBAGLU F  38      23.378  12.242  67.334  0.00  0.00           C 0
+ATOM  10172   CA PRO J  59      22.379   9.294  54.527  0.00  0.00           C 0
+ATOM   5846  NH1 ARG F  47      20.826   5.164  55.277  0.64  1.09           N 0
+ATOM  10168   CA GLY J  58      19.968  11.663  52.713  0.00  0.00           C 0
+ATOM   5834   CD GLU F  46      15.719   2.906  53.289  0.00  0.00           C 0
+ATOM   5832   CB GLU F  46      15.963   1.874  55.592  0.00  0.00           C 0
+ATOM   9760  OD1 ASP J   7      13.662   9.643  51.467  0.60  7.50           O 0
+ATOM  10177   CD PRO J  59      21.010   8.962  52.529  0.00  0.00           C 0
+ATOM  10176   CG PRO J  59      21.581   7.656  52.987  0.00  0.00           C 0
+ATOM   5847  NH2 ARG F  47      21.710   5.132  57.396  0.00  0.00           N 0
+ATOM   5814    N ALA F  44      19.339   3.921  59.361  0.00  0.00           N 0
+ATOM   5739    NAGLU F  38      23.615  10.147  66.058  0.72  2.19           N 0
+ATOM   5765   CBAASP F  39      18.705  12.534  65.974  0.00  0.00           C 0
+HETATM13171  O2A HEM F 700      23.832   4.425  59.069  0.46  4.29           O 0
+ATOM   5781   CBAASP F  40      16.305  10.397  62.463  0.00  0.00           C 0
+ATOM   5733   CBAPRO F  37      24.325   8.433  63.119  0.00  0.00           C 0
+ATOM   5729    CAPRO F  37      23.351   8.997  65.435  0.00  0.00           C 0
+ATOM   5731    OAPRO F  37      22.256   8.425  65.507  0.68  2.14           O 0
+ATOM  10166    O GLY J  57      18.522  13.410  54.359  0.00  0.00           O 0
+ATOM   9749  CD2 TYR J   6      17.084  10.732  50.687  0.00  0.00           C 0
+ATOM   9751  CE2 TYR J   6      17.487   9.422  50.463  0.00  0.00           C 0
+ATOM   9753   OH TYR J   6      18.929   7.854  49.399  0.56  3.21           O 0
+ATOM  10170    O GLY J  58      21.288  11.844  54.703  0.61  1.07           O 0
+TER
+END

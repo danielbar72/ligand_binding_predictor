@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0185
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6865
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5773
+HEADER 5  - Mean B-factor of pocket residues  : 0.7093
+HEADER 6  - Hydrophobicity Score              : -9.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.0170
+HEADER 10 - Pocket volume (convex hull)       : 0.3285
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   7915    O ALA E  58      16.636  -3.854  97.954  0.32  5.36           O 0
+ATOM   7917    N PRO E  59      14.754  -3.461  96.754  0.00  0.00           N 0
+ATOM   7918   CA PRO E  59      14.375  -4.872  96.684  0.00  0.00           C 0
+ATOM   7910   CE LYS E  57      13.758  -0.443 103.114  0.00  0.00           C 0
+ATOM   7911   NZ LYS E  57      12.513   0.103 102.481  0.00  0.00           N 0
+ATOM   7906    O LYS E  57      15.976   0.890  98.439  0.38  1.07           O 0
+ATOM   7908   CG LYS E  57      15.426   0.707 101.591  0.00  0.00           C 0
+ATOM   7923   CD PRO E  59      13.731  -2.572  96.161  0.00  0.00           C 0
+ATOM   7922   CG PRO E  59      12.552  -3.461  95.990  0.00  0.00           C 0
+ATOM   7914    C ALA E  58      15.913  -3.075  97.319  0.00  0.00           C 0
+ATOM   7905    C LYS E  57      16.783   0.056  98.910  0.00  0.00           C 0
+ATOM   7912    N ALA E  58      17.016  -1.133  98.355  0.68  4.37           N 0
+ATOM   7907   CB LYS E  57      16.788  -0.022 101.429  0.00  0.00           C 0
+ATOM   7913   CA ALA E  58      16.294  -1.590  97.178  0.00  0.00           C 0
+TER
+END

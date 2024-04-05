@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    76:
+HEADER 0  - Pocket Score                      : -0.0469
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2386
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5436
+HEADER 5  - Mean B-factor of pocket residues  : 0.5200
+HEADER 6  - Hydrophobicity Score              : 5.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 377.4080
+HEADER 10 - Pocket volume (convex hull)       : 4.7626
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1334    O ARG B  34      41.191  34.486  54.670  0.00  0.00           O 0
+ATOM   1385   CGAGLU B  38      41.671  33.760  61.767  0.00  0.00           C 0
+ATOM   1352    O TYR B  36      44.982  33.692  57.424  0.63  4.29           O 0
+ATOM   1323    O ARG B  33      43.245  36.868  57.224  0.47  6.43           O 0
+ATOM   1391  OE2AGLU B  38      41.182  36.078  61.993  0.35  5.36           O 0
+ATOM   1375    NAGLU B  38      44.666  33.016  60.100  0.00  0.00           N 0
+ATOM   1363   CAAPRO B  37      45.849  31.303  58.739  0.00  0.00           C 0
+ATOM   1345    O VAL B  35      44.680  32.193  54.281  0.55  4.29           O 0
+ATOM   1340  NH1 ARG B  34      36.805  36.765  54.816  0.00  0.00           N 0
+ATOM   1339   CZ ARG B  34      36.539  38.027  55.149  0.00  0.00           C 0
+ATOM   1341  NH2 ARG B  34      35.529  38.303  55.945  0.00  0.00           N 0
+ATOM   1332   CA ARG B  34      41.491  36.821  55.057  0.00  0.00           C 0
+ATOM   1327   NE ARG B  33      42.614  41.304  59.085  0.74  4.37           N 0
+ATOM   1336   CG ARG B  34      39.724  38.571  54.646  0.00  0.00           C 0
+ATOM   1338   NE ARG B  34      37.305  39.016  54.668  0.48  4.37           N 0
+TER
+END

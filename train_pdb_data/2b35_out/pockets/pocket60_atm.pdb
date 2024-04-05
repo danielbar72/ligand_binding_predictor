@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0559
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7756
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4125
+HEADER 5  - Mean B-factor of pocket residues  : 0.8252
+HEADER 6  - Hydrophobicity Score              : 14.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.7164
+HEADER 10 - Pocket volume (convex hull)       : 2.2756
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   9813   CB LYS F  57      37.627 -36.883  39.997  0.00  0.00           C 0
+ATOM   9821    O ALA F  58      36.337 -35.969  45.285  0.48  4.29           O 0
+ATOM   9777  OD2 ASP F  52      30.735 -38.204  40.597  0.00  0.00           O 0
+ATOM   9742  OE1 GLN F  48      31.082 -39.062  44.623  0.00  0.00           O 0
+ATOM   9818    N ALA F  58      37.485 -35.302  42.790  0.67  6.56           N 0
+ATOM   9766    O THR F  51      31.698 -33.404  41.389  0.37  2.14           O 0
+ATOM   9810   CA LYS F  57      37.226 -35.447  40.372  0.00  0.00           C 0
+ATOM   9807    O ALA F  56      36.307 -32.822  40.183  0.00  0.00           O 0
+ATOM   9773    O ASP F  52      30.768 -34.584  37.932  0.28  7.50           O 0
+ATOM   9771   CA ASP F  52      30.216 -35.469  40.094  0.00  0.00           C 0
+ATOM   9809    N LYS F  57      37.453 -34.529  39.263  0.58  5.47           N 0
+ATOM   9768  OG1 THR F  51      30.847 -34.954  44.805  0.59  3.21           O 0
+ATOM   9792    O LEU F  54      33.638 -31.986  37.951  0.72  4.29           O 0
+TER
+END

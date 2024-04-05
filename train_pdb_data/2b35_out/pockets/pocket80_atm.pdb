@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.1101
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7547
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4141
+HEADER 5  - Mean B-factor of pocket residues  : 0.4745
+HEADER 6  - Hydrophobicity Score              : 30.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.6451
+HEADER 10 - Pocket volume (convex hull)       : 5.3431
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+HETATM11431  N7A NAD C 305      52.212  15.743  44.350  0.97  3.28           N 0
+ATOM   4470  CD1 PHE C  97      53.870  17.134  49.128  0.00  0.00           C 0
+HETATM11430  C8A NAD C 305      52.862  14.632  44.808  0.00  0.00           C 0
+ATOM   4045  CE2 PHE C  41      55.465  17.980  42.482  0.00  0.00           C 0
+ATOM   4236  OD2 ASP C  64      51.361  20.810  39.263  0.00  0.00           O 0
+ATOM   4046   CZ PHE C  41      54.678  18.996  41.962  0.00  0.00           C 0
+ATOM   4633   NZ LYS C 118      52.446  23.893  46.480  0.60  6.56           N 0
+ATOM   4251  OE1 GLN C  66      49.421  21.654  44.064  0.79  7.50           O 0
+ATOM   4632   CE LYS C 118      51.559  22.740  46.864  0.00  0.00           C 0
+ATOM   4471  CD2 PHE C  97      51.986  18.579  48.947  0.00  0.00           C 0
+ATOM   4473  CE2 PHE C  97      52.783  19.680  49.259  0.00  0.00           C 0
+ATOM   4472  CE1 PHE C  97      54.685  18.227  49.442  0.00  0.00           C 0
+ATOM   4663  CD1 ILE C 122      49.759  18.775  46.135  0.00  0.00           C 0
+HETATM11434  N6A NAD C 305      50.895  17.551  42.320  0.77  2.19           N 0
+ATOM   4469   CG PHE C  97      52.517  17.304  48.882  0.00  0.00           C 0
+ATOM   4474   CZ PHE C  97      54.139  19.505  49.511  0.00  0.00           C 0
+TER
+END

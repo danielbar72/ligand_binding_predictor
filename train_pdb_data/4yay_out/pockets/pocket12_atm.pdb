@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0371
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0215
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6677
+HEADER 5  - Mean B-factor of pocket residues  : 0.3758
+HEADER 6  - Hydrophobicity Score              : 10.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.4890
+HEADER 10 - Pocket volume (convex hull)       : 3.1749
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    799   CD LYS A1104      -7.705  -0.621  16.369  0.00  0.00           C 0
+ATOM    800   CE LYS A1104      -7.779  -1.231  14.996  0.00  0.00           C 0
+ATOM    456  OD2 ASP A1060      -5.537  -4.804  16.521  0.00  0.00           O 0
+ATOM    798   CG LYS A1104      -9.027   0.000  16.793  0.00  0.00           C 0
+ATOM    810  CE1 TYR A1105      -6.270  -0.759  21.253  0.00  0.00           C 0
+ATOM    427   CB GLU A1057      -5.501  -6.944  22.872  0.00  0.00           C 0
+ATOM    428   CG GLU A1057      -6.848  -7.649  22.843  0.00  0.00           C 0
+ATOM    362  CD2 LEU A1048      -7.176  -3.981  24.892  0.00  0.00           C 0
+ATOM    797   CB LYS A1104      -8.851   0.810  18.066  0.00  0.00           C 0
+ATOM    796    O LYS A1104     -10.461   0.698  20.842  0.67  7.50           O 0
+ATOM    424   CA GLU A1057      -4.604  -7.179  21.639  0.00  0.00           C 0
+ATOM    361  CD1 LEU A1048      -5.023  -3.376  23.815  0.00  0.00           C 0
+ATOM    426    O GLU A1057      -3.390  -5.317  20.754  0.00  0.00           O 0
+ATOM    813   OH TYR A1105      -4.825  -1.478  19.497  0.80  2.14           O 0
+TER
+END

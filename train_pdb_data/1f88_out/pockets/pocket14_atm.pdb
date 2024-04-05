@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0440
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9452
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5885
+HEADER 5  - Mean B-factor of pocket residues  : 0.3388
+HEADER 6  - Hydrophobicity Score              : 5.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.7727
+HEADER 10 - Pocket volume (convex hull)       : 5.2184
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM      4    O MET A   1      42.854  -4.618 -25.451  0.20  3.21           O 0
+ATOM    122   CB LYS A  16      37.211  -4.384 -26.954  0.00  0.00           C 0
+ATOM    123   CG LYS A  16      36.962  -5.411 -28.066  0.00  0.00           C 0
+ATOM    124   CD LYS A  16      37.354  -6.824 -27.616  0.00  0.00           C 0
+ATOM      1    N MET A   1      43.958  -5.980 -27.758  0.38  7.66           N 0
+ATOM    125   CE LYS A  16      37.094  -7.867 -28.707  0.00  0.00           C 0
+ATOM    119   CA LYS A  16      36.880  -2.932 -27.325  0.00  0.00           C 0
+ATOM    118    N LYS A  16      37.687  -2.021 -26.527  0.00  0.00           N 0
+ATOM    110    N ASN A  15      39.589  -0.666 -25.134  0.00  0.00           N 0
+ATOM    109   OG SER A  14      39.950  -3.841 -24.445  0.50  1.07           O 0
+ATOM      5   CB MET A   1      44.868  -3.699 -27.610  0.00  0.00           C 0
+ATOM    112    C ASN A  15      37.770  -0.734 -26.827  0.00  0.00           C 0
+ATOM    114   CB ASN A  15      39.341   1.165 -26.722  0.00  0.00           C 0
+ATOM     26  OG1 THR A   4      41.781   1.901 -25.083  0.75  1.07           O 0
+ATOM     20    O GLY A   3      45.481  -0.545 -25.645  0.55  7.50           O 0
+ATOM     22   CA THR A   4      44.165   1.892 -25.494  0.00  0.00           C 0
+ATOM     27  CG2 THR A   4      42.649   3.650 -26.435  0.00  0.00           C 0
+TER
+END

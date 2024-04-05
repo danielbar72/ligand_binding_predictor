@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0952
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9554
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5181
+HEADER 5  - Mean B-factor of pocket residues  : 0.2105
+HEADER 6  - Hydrophobicity Score              : 0.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.0300
+HEADER 10 - Pocket volume (convex hull)       : 3.9071
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1402    O TYR A 178      53.486  12.792 -20.436  0.00  0.00           O 0
+ATOM    864   CB PRO A 107      50.413  17.916 -23.287  0.00  0.00           C 0
+ATOM   1392   CB ARG A 177      57.121  11.962 -23.008  0.00  0.00           C 0
+ATOM     55  ND2 ASN A   8      50.822  13.322 -27.018  0.00  0.00           N 0
+ATOM    863    O PRO A 107      51.760  18.091 -20.286  0.76  1.07           O 0
+ATOM    890  OD1 ASN A 111      55.389  17.069 -20.111  0.37  2.14           O 0
+ATOM    891  ND2 ASN A 111      54.430  18.816 -21.124  0.66  9.84           N 0
+ATOM   1345    O PRO A 171      59.336  15.365 -21.935  0.04  8.57           O 0
+ATOM     53   CG ASN A   8      49.690  13.372 -26.308  0.00  0.00           C 0
+ATOM     51    O ASN A   8      50.677  10.418 -23.685  0.43  2.14           O 0
+ATOM     54  OD1 ASN A   8      49.092  14.419 -26.076  0.74  1.07           O 0
+ATOM    186   CZ PHE A  24      48.185  13.804 -21.541  0.00  0.00           C 0
+ATOM    861   CA PRO A 107      49.960  17.893 -21.827  0.00  0.00           C 0
+ATOM   1394   CD ARG A 177      55.517  10.696 -24.473  0.00  0.00           C 0
+TER
+END

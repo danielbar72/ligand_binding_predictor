@@ -1,0 +1,58 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0235
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    43
+HEADER 3  - Mean alpha-sphere radius          : 3.9973
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5834
+HEADER 5  - Mean B-factor of pocket residues  : 0.2394
+HEADER 6  - Hydrophobicity Score              : -15.4167
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 610.3062
+HEADER 10 - Pocket volume (convex hull)       : 98.6936
+HEADER 11 - Charge Score                      :    -4
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.1860
+ATOM   1962   CB ASP C  74      42.964  30.212   0.917  0.00  0.00           C 0
+ATOM   1944    O ILE C  72      40.267  30.651   6.014  0.68  1.07           O 0
+ATOM   1965  OD2 ASP C  74      41.878  28.360  -0.061  0.67  5.36           O 0
+ATOM   2005   CB LYS C  80      39.807  26.938   7.420  0.00  0.00           C 0
+ATOM   1991  OE1 GLU C  78      38.867  25.644  -0.262  0.00  0.00           O 0
+ATOM   1996    O ASN C  79      36.743  27.556   5.060  0.58  3.21           O 0
+ATOM   2678  ND2 ASN D  79      37.859  20.958   6.102  0.50  3.28           N 0
+ATOM   2661    O GLY D  77      35.436  22.311   2.618  0.48  9.64           O 0
+ATOM   2290   CD GLU D  31      47.144  20.715   6.171  0.00  0.00           C 0
+ATOM   2009   NZ LYS C  80      42.752  23.207   9.059  0.59  4.37           N 0
+ATOM   2291  OE1 GLU D  31      48.129  20.929   6.914  0.00  0.00           O 0
+ATOM   2292  OE2 GLU D  31      46.998  21.269   5.056  0.00  0.00           O 0
+ATOM   1987    O GLU C  78      39.173  30.138   2.766  0.76  3.21           O 0
+ATOM   1958    N ASP C  74      41.616  31.709   2.320  0.00  0.00           N 0
+ATOM   2008   CE LYS C  80      41.414  23.724   8.634  0.00  0.00           C 0
+ATOM   2007   CD LYS C  80      41.372  25.228   8.447  0.00  0.00           C 0
+ATOM   2671    N ASN D  79      35.303  23.797   6.061  0.51  1.09           N 0
+ATOM   2287    O GLU D  31      44.472  20.761   9.224  0.79  1.07           O 0
+ATOM   2309   CA GLY D  34      44.904  22.224  13.067  0.00  0.00           C 0
+ATOM   2278    O GLU D  30      46.054  19.339  11.662  0.62  4.29           O 0
+ATOM   2026   NZ LYS C  82      44.298  26.144  13.143  0.43  5.47           N 0
+ATOM   1447  OE2 GLU C  11      45.563  28.787  11.270  0.71  4.29           O 0
+ATOM   1995    C ASN C  79      37.378  28.552   5.398  0.00  0.00           C 0
+ATOM   2001    N LYS C  80      38.235  28.575   6.386  0.00  0.00           N 0
+ATOM   1988   CB GLU C  78      38.367  28.317   0.506  0.00  0.00           C 0
+ATOM   2006   CG LYS C  80      39.950  25.770   8.394  0.00  0.00           C 0
+ATOM   1796  OE1 GLU C  53      46.700  30.613   5.661  0.00  0.00           O 0
+ATOM   2310    C GLY D  34      45.511  21.919  14.419  0.00  0.00           C 0
+ATOM   2311    O GLY D  34      46.119  22.766  15.070  0.57  6.43           O 0
+ATOM   2280   CG GLU D  30      48.840  17.803  13.120  0.00  0.00           C 0
+ATOM   1797  OE2 GLU C  53      46.451  29.561   3.715  0.00  0.00           O 0
+ATOM   1946  CG1 ILE C  72      43.033  30.788   9.549  0.00  0.00           C 0
+ATOM   1945   CB ILE C  72      42.477  30.775   8.128  0.00  0.00           C 0
+ATOM   1948  CD1 ILE C  72      42.252  29.940  10.529  0.00  0.00           C 0
+ATOM   1947  CG2 ILE C  72      43.610  30.980   7.132  0.00  0.00           C 0
+ATOM   2663   CA GLU D  78      34.418  24.382   3.871  0.00  0.00           C 0
+TER
+END

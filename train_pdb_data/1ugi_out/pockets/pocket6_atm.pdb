@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0888
+HEADER 1  - Drug Score                        : 0.0151
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7731
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4433
+HEADER 5  - Mean B-factor of pocket residues  : 0.0885
+HEADER 6  - Hydrophobicity Score              : 61.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 279.3119
+HEADER 10 - Pocket volume (convex hull)       : 18.7841
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   1595  CG1 VAL C  29      29.399  35.439  13.782  0.00  0.00           C 0
+ATOM   1627  CG1 ILE C  33      31.116  32.855  11.948  0.00  0.00           C 0
+ATOM   1556   CE MET C  24      29.958  39.232  10.285  0.00  0.00           C 0
+ATOM   1836  CD2 LEU C  58      33.763  35.716  13.604  0.00  0.00           C 0
+ATOM   1620  CG1 VAL C  32      31.487  34.137   7.930  0.00  0.00           C 0
+ATOM   1555   SD MET C  24      31.477  40.029  10.779  0.00  0.00           S 0
+ATOM   1621  CG2 VAL C  32      29.750  35.912   7.425  0.00  0.00           C 0
+ATOM   1835  CD1 LEU C  58      35.999  36.759  13.088  0.00  0.00           C 0
+ATOM   1619   CB VAL C  32      30.066  34.630   8.174  0.00  0.00           C 0
+ATOM   1940  CG2 VAL C  71      36.072  33.110  10.606  0.00  0.00           C 0
+ATOM   1629  CD1 ILE C  33      32.469  32.551  11.329  0.00  0.00           C 0
+ATOM   1591   CA VAL C  29      28.008  36.596  12.011  0.00  0.00           C 0
+ATOM   1819   SD MET C  56      37.486  37.561   7.712  0.00  0.00           S 0
+ATOM   1939  CG1 VAL C  71      36.944  32.976   8.264  0.00  0.00           C 0
+ATOM   1999  OD1 ASN C  79      34.609  32.463   5.419  0.30  2.14           O 0
+ATOM   1709  CG2 VAL C  43      34.564  40.489  12.307  0.00  0.00           C 0
+ATOM   1708  CG1 VAL C  43      36.852  40.418  11.326  0.00  0.00           C 0
+ATOM   1957  NE2 GLN C  73      36.864  34.819   2.802  0.83  9.84           N 0
+ATOM   1820   CE MET C  56      38.082  36.273   6.621  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : 0.0553
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1408
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7401
+HEADER 5  - Mean B-factor of pocket residues  : 0.6129
+HEADER 6  - Hydrophobicity Score              : -9.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 344.1006
+HEADER 10 - Pocket volume (convex hull)       : 9.6286
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM  10642   CB LEU J 113      19.783  22.741  37.691  0.00  0.00           C 0
+ATOM  10615   CG ARG J 110      15.460  26.736  39.354  0.00  0.00           C 0
+ATOM  10652  OD1 ASP J 114      19.492  27.482  39.340  0.00  0.00           O 0
+ATOM  10645  CD2 LEU J 113      18.424  21.595  35.909  0.00  0.00           C 0
+ATOM  10486  CE1 HIS J  93      22.174  22.545  33.800  0.00  0.00           C 0
+ATOM  10643   CG LEU J 113      19.825  21.770  36.500  0.00  0.00           C 0
+ATOM  10610    N ARG J 110      15.156  22.861  39.440  0.00  0.00           N 0
+ATOM  10605   CD ARG J 109      14.387  19.625  35.621  0.00  0.00           C 0
+ATOM  10575    O ASP J 106      12.099  23.059  39.025  0.62  4.29           O 0
+ATOM  10614   CB ARG J 110      14.828  25.332  39.443  0.00  0.00           C 0
+ATOM  10604   CG ARG J 109      15.144  19.926  36.908  0.00  0.00           C 0
+ATOM  10611   CA ARG J 110      15.828  24.159  39.416  0.00  0.00           C 0
+ATOM  10679   CG GLU J 117      24.426  25.485  36.627  0.00  0.00           C 0
+ATOM  10641    O LEU J 113      22.517  23.957  39.024  0.00  0.00           O 0
+ATOM  10577   CG ASP J 106       8.751  21.984  36.209  0.00  0.00           C 0
+ATOM  10576   CB ASP J 106       9.209  22.571  37.532  0.00  0.00           C 0
+ATOM  10578  OD1 ASP J 106       9.420  21.072  35.658  0.00  0.00           O 0
+ATOM  10640    C LEU J 113      21.351  23.758  39.371  0.00  0.00           C 0
+TER
+END

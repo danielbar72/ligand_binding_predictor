@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0341
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0884
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7240
+HEADER 5  - Mean B-factor of pocket residues  : 0.7535
+HEADER 6  - Hydrophobicity Score              : -3.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 348.7592
+HEADER 10 - Pocket volume (convex hull)       : 11.8630
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   3040   CA ASP A 425      40.211  77.390  28.222  0.00  0.00           C 0
+ATOM   3043   CB ASP A 425      38.912  76.759  27.727  0.00  0.00           C 0
+ATOM   3042    O ASP A 425      38.823  78.816  29.561  0.00  0.00           O 0
+ATOM   3045  OD1 ASP A 425      40.045  76.329  25.680  0.00  0.00           O 0
+ATOM   3057    C ILE A 427      43.666  81.264  28.032  0.00  0.00           C 0
+ATOM   3050    O ASN A 426      42.519  81.288  31.587  0.19  9.64           O 0
+ATOM   3070  OD2 ASP A 428      42.285  85.466  26.071  0.00  0.00           O 0
+ATOM   3049    C ASN A 426      42.148  80.312  30.922  0.00  0.00           C 0
+ATOM   3048   CA ASN A 426      40.903  79.492  31.274  0.00  0.00           C 0
+ATOM   3058    O ILE A 427      43.032  80.754  27.103  0.67  7.50           O 0
+ATOM   3077   CD PRO A 429      42.598  83.181  24.134  0.00  0.00           C 0
+ATOM   3064   CA ASP A 428      43.923  83.397  26.897  0.00  0.00           C 0
+ATOM   3063    N ASP A 428      44.163  82.490  28.000  0.71  1.09           N 0
+ATOM   3069  OD1 ASP A 428      43.632  87.060  26.725  0.71  9.64           O 0
+ATOM   3067   CB ASP A 428      44.189  84.834  27.367  0.00  0.00           C 0
+ATOM   2883  CE2 TYR A 407      46.352  86.823  31.157  0.00  0.00           C 0
+ATOM   3068   CG ASP A 428      43.310  85.856  26.666  0.00  0.00           C 0
+ATOM   2881  CD2 TYR A 407      46.845  85.613  31.632  0.00  0.00           C 0
+TER
+END

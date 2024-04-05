@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0098
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7449
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5619
+HEADER 5  - Mean B-factor of pocket residues  : 0.3631
+HEADER 6  - Hydrophobicity Score              : -8.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 115.1145
+HEADER 10 - Pocket volume (convex hull)       : 0.8534
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   7314  OG1 THR G  94      77.845 -13.698  47.987  0.52  7.50           O 0
+ATOM   7278   CB ARG G  90      76.880 -14.845  42.496  0.00  0.00           C 0
+ATOM   7279   CG ARG G  90      78.374 -14.718  42.255  0.00  0.00           C 0
+ATOM   7277    O ARG G  90      76.573 -15.518  45.760  0.72  1.07           O 0
+ATOM   7280   CD ARG G  90      78.760 -13.529  41.377  0.00  0.00           C 0
+ATOM   6755  OD1 ASP G  29      74.229 -10.415  41.184  0.64  8.57           O 0
+ATOM   6726  OE1 GLN G  25      75.873  -9.891  47.779  0.00  0.00           O 0
+ATOM   6743    O GLU G  28      74.501  -5.463  43.096  0.64  8.57           O 0
+ATOM   6722    O GLN G  25      72.214  -8.522  45.434  0.00  0.00           O 0
+ATOM   7290   SG CYS G  91      72.910 -12.042  44.202  0.00  0.00           S 0
+ATOM   7283  NH1 ARG G  90      76.623 -12.087  40.174  0.00  0.00           N 0
+ATOM   7285    N CYS G  91      74.763 -14.780  44.614  0.00  0.00           N 0
+ATOM   7286   CA CYS G  91      74.027 -14.177  45.723  0.00  0.00           C 0
+ATOM   7276    C ARG G  90      75.936 -15.409  44.721  0.00  0.00           C 0
+ATOM   6750   CA ASP G  29      73.002  -7.435  41.835  0.00  0.00           C 0
+TER
+END

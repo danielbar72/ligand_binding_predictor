@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0043
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9856
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5439
+HEADER 5  - Mean B-factor of pocket residues  : 0.5768
+HEADER 6  - Hydrophobicity Score              : 28.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.6782
+HEADER 10 - Pocket volume (convex hull)       : 3.5685
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4231
+ATOM   2887   CA TRP A 408      50.984  80.917  34.787  0.00  0.00           C 0
+ATOM   2986  NH2 ARG A 418      51.609  76.492  34.579  0.63  3.28           N 0
+ATOM   2900    N THR A 409      51.145  79.729  36.878  0.48  1.09           N 0
+ATOM   2877    O TYR A 407      48.538  81.572  33.737  0.68  8.57           O 0
+ATOM   3053  OD1 ASN A 426      43.389  78.540  33.179  0.46  6.43           O 0
+ATOM   2896  CE3 TRP A 408      50.361  78.854  31.387  0.00  0.00           C 0
+ATOM   3060  CG1 ILE A 427      45.019  78.326  29.979  0.00  0.00           C 0
+ATOM   3062  CD1 ILE A 427      45.814  77.102  29.546  0.00  0.00           C 0
+ATOM   2905  OG1 THR A 409      50.271  77.527  38.724  0.28  8.57           O 0
+ATOM   3029  ND2 ASN A 423      44.692  73.298  35.938  0.00  0.00           N 0
+ATOM   2906  CG2 THR A 409      49.208  79.703  38.924  0.00  0.00           C 0
+ATOM   2981   CG ARG A 418      49.490  74.195  32.910  0.00  0.00           C 0
+ATOM   2982   CD ARG A 418      50.547  75.142  32.313  0.00  0.00           C 0
+ATOM   3026   CB ASN A 423      43.821  73.581  33.702  0.00  0.00           C 0
+ATOM   2977   CA ARG A 418      47.298  72.965  32.323  0.00  0.00           C 0
+ATOM   2898  CZ3 TRP A 408      49.686  78.407  30.271  0.00  0.00           C 0
+ATOM   2979    O ARG A 418      45.353  73.725  31.175  0.00  0.00           O 0
+ATOM   2980   CB ARG A 418      48.466  73.837  31.868  0.00  0.00           C 0
+TER
+END

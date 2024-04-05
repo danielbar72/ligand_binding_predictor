@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.1066
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5766
+HEADER 5  - Mean B-factor of pocket residues  : 0.2603
+HEADER 6  - Hydrophobicity Score              : 7.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 335.6147
+HEADER 10 - Pocket volume (convex hull)       : 36.1041
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0833
+HETATM13321  O2A HEM I 700      50.236   7.515  54.882  0.00  0.00           O 0
+HETATM13348  O2D HEM I 700      46.787  10.275  55.498  0.00  0.00           O 0
+HETATM13319  CGA HEM I 700      50.399   6.314  54.465  0.00  0.00           C 0
+HETATM13317  CAA HEM I 700      49.435   4.579  55.920  0.00  0.00           C 0
+ATOM   9241    O MET I  73      40.693   5.286  57.575  0.60  6.43           O 0
+ATOM   9256  NH2 ARG I  74      43.222  10.374  53.916  0.53  3.28           N 0
+ATOM   9247   CA ARG I  74      42.953   6.716  58.068  0.00  0.00           C 0
+ATOM   9277   CG PRO I  77      42.598   2.402  54.846  0.00  0.00           C 0
+ATOM   9249    O ARG I  74      44.399   4.935  57.403  0.58  6.43           O 0
+HETATM13307  CHA HEM I 700      49.077   6.552  58.340  0.00  0.00           C 0
+ATOM   9253   NE ARG I  74      43.602   9.974  56.148  0.45  1.09           N 0
+HETATM13320  O1A HEM I 700      50.297   5.945  53.266  0.65  9.64           O 0
+ATOM   9175  NH2 ARG I  66      46.132  11.499  53.132  0.33  3.28           N 0
+ATOM   9002   NE ARG I  47      50.102  10.231  53.593  0.00  0.00           N 0
+ATOM   9005  NH2 ARG I  47      51.003   8.647  52.161  0.00  0.00           N 0
+ATOM   9289   CZ PHE I  78      47.190   1.730  55.165  0.00  0.00           C 0
+ATOM   9287  CE1 PHE I  78      46.698   2.197  56.374  0.00  0.00           C 0
+ATOM   9003   CZ ARG I  47      50.649   9.909  52.414  0.00  0.00           C 0
+ATOM  10241  NH1 ARG J  66      38.117   8.123  50.909  0.00  0.00           N 0
+ATOM   9207  NH2 ARG I  70      38.058  10.078  56.534  0.15  3.28           N 0
+ATOM  10226    O GLN J  65      36.033   8.104  55.040  0.66  6.43           O 0
+ATOM  10323  NH2 ARG J  74      38.399  12.652  52.009  0.44  2.19           N 0
+TER
+END
