@@ -199,7 +199,8 @@ def color_residues(pdb_input_file, model):
     for current_model in structure:
         for chain in current_model:
             for residue in chain:
-                if residue.id[1] in highlighted_residues:
+                print(residue.id)
+                if residue.id in highlighted_residues:
                     # Add B-factor to residues
                     for atom in residue:
                         atom.set_bfactor(9999)  # Set a high B-factor to highlight residue
