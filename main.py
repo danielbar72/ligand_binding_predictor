@@ -172,14 +172,19 @@ def predict_binding_sites(pdb_file, model):
     return {k: ret_dict[k] for k in sorted(ret_dict.keys())}
 
 
-from Bio.PDB import PDBParser, PDBIO
-import matplotlib.colors as mpl_colors
+#from Bio.PDB import PDBParser, PDBIO
+#import matplotlib.colors as mpl_colors
 
+
+from Bio.PDB import PDBParser, PDBIO
+from Bio.PDB.Atom import Atom
+from Bio.PDB.Residue import Residue
 
 def color_residues(pdb_input_file, model):
     # Load the PDB file
-    parser = PDBParser()
+    parser = PDBParser(QUIET=True)  # Suppress PDB warnings
     structure = parser.get_structure("protein", pdb_input_file)
+
     highlighted_residues = [] 
     # Define the residues to be highlighted
     predicted_sites = predict_binding_sites(pdb_input_file, model)
@@ -188,18 +193,21 @@ def color_residues(pdb_input_file, model):
             for r in residues:
                 highlighted_residues.append(r[1])
 
-
     # Color the residues
     for current_model in structure:
         for chain in current_model:
             for residue in chain:
                 if residue.id[1] in highlighted_residues:
-                    residue.color = Color(1, 0, 0)  # Red
+                    # Add B-factor to residues
+                    for atom in residue:
+                        atom.set_bfactor(9999)  # Set a high B-factor to highlight residue
+                        # You can adjust the B-factor value to control the color intensity
 
     # Save the modified PDB file
     io = PDBIO()
     io.set_structure(structure)
     io.save("output.pdb")
+
 
 
 # Main function
