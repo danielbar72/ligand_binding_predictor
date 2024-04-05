@@ -192,15 +192,16 @@ def color_residues(pdb_input_file, model):
     for pocket_num, residues in predicted_sites.items():
         if pocket_num == 1:
             for r in residues:
-                highlighted_residues.append(r)
-    print(highlighted_residues)
+                highlighted_resi = r[3:]
+                highlighted_residues.append(highlighted_resi)
+    print(highlighted_resi)
 
     # Color the residues
     for current_model in structure:
         for chain in current_model:
             for residue in chain:
                 print(residue.id)
-                if residue.id in highlighted_residues:
+                if residue.id[1] in highlighted_residues:
                     # Add B-factor to residues
                     for atom in residue:
                         atom.set_bfactor(9999)  # Set a high B-factor to highlight residue
