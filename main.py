@@ -146,7 +146,6 @@ def predict_binding_sites(pdb_file, model):
 
     df_results = pd.DataFrame({'y_test': y, 'y_pred': predicted_labels})
 
-    """
     print("Final model")
     print(df_results[df_results['y_test'] == 1])
     print("______________")
@@ -155,11 +154,21 @@ def predict_binding_sites(pdb_file, model):
     accuracy = accuracy_score(y, predicted_labels)
 
     print("Accuracy:", accuracy)
-    """
-
+    
     df['ligand_binding_predicted'] = predicted_labels
 
-    return df[df['ligand_binding_predicted'] == 1]['name'].to_list()
+    df = df[df['ligand_binding_predicted'] == 1][['name', 'pocket_number']]
+
+    ret_dict = {}
+    for _, row in df.iterrows():
+        name = row['name']
+        pocket_num = row['pocket_number'] if row['pocket_number'] != 0 else 100
+
+        if pocket_num not in ret_dict:
+            ret_dict[pocket_num] = [name]
+        else:
+            ret_dict[pocket_num].append(name)
+    return {k: ret_dict[k] for k in sorted(ret_dict.keys())}
 
 
 
@@ -185,11 +194,17 @@ def main(pdb_input_file):
     
     predicted_sites = predict_binding_sites(pdb_input_file, model)
     print("Predicted Binding Sites:")
-    for site in predicted_sites:
-        print(site)
+    for pocket_num, residues in predicted_sites.items():
+        if pocket_num == 100:
+            print("Residues, that are not part of any pocket: ")
+        else:
+            print("Binding site pocket number: ", pocket_num)
+            print("Residues: ")
+        for r in residues:
+            print("     ", r)
 
 if __name__ == "__main__":
-    
+
     # Ignore warnings
     warnings.filterwarnings("ignore")
     if len(sys.argv) == 2:  # One argument is the script name itself, so we check if the count is 2
