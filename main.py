@@ -9,6 +9,8 @@ from color_pdb import color_residues
 import os, sys
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
+from Bio.PDB import PDBParser, PDBIO
+from Bio.PDB.Color import Color
 import warnings
 
 def load_pdb_file(file_path):
@@ -172,6 +174,30 @@ def predict_binding_sites(pdb_file, model):
     return {k: ret_dict[k] for k in sorted(ret_dict.keys())}
 
 
+def color_residues(pdb_input_file):
+    # Load the PDB file
+    parser = PDBParser()
+    structure = parser.get_structure("protein", pdb_input_file)
+    highlighted_residues = [] 
+    # Define the residues to be highlighted
+    predicted_sites = predict_binding_sites(pdb_input_file, model)
+    for pocket_num, residues in predicted_sites.items():
+        if pocket_num == 1:
+            for r in residues:
+                highlighted_residues.append(r[1])
+
+
+    # Color the residues
+    for model in structure:
+        for chain in model:
+            for residue in chain:
+                if residue.id[1] in highlighted_residues:
+                    residue.color = Color(1, 0, 0)  # Red
+
+    # Save the modified PDB file
+    io = PDBIO()
+    io.set_structure(structure)
+    io.save("output.pdb")
 
 # Main function
 def main(pdb_input_file):
