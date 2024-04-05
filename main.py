@@ -192,7 +192,7 @@ def color_residues(pdb_input_file, model):
     for pocket_num, residues in predicted_sites.items():
         if pocket_num == 1:
             for r in residues:
-                highlighted_residues.append(r[1])
+                highlighted_residues.append(r)
     print(highlighted_residues)
 
     # Color the residues
