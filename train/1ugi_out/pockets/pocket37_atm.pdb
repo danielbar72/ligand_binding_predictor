@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0618
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6794
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3559
+HEADER 5  - Mean B-factor of pocket residues  : 0.4010
+HEADER 6  - Hydrophobicity Score              : 3.3000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.3484
+HEADER 10 - Pocket volume (convex hull)       : 19.1493
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   2624  CG1 ILE D  72      29.852  21.185  12.304  0.00  0.00           C 0
+ATOM   2124  CG2 THR D  12      24.268  18.067  13.393  0.00  0.00           C 0
+ATOM   2474  OE1 GLU D  53      25.375  22.187   9.073  0.74  5.36           O 0
+ATOM   2625  CG2 ILE D  72      28.975  21.593  10.009  0.00  0.00           C 0
+ATOM   2490  CG2 VAL D  55      27.321  17.359  11.347  0.00  0.00           C 0
+ATOM   2113   CB GLU D  11      26.504  19.988  17.188  0.00  0.00           C 0
+ATOM   2112    O GLU D  11      24.233  21.773  15.777  0.42  7.50           O 0
+ATOM   2119   CA THR D  12      22.790  19.742  14.556  0.00  0.00           C 0
+ATOM   2626  CD1 ILE D  72      30.380  22.225  13.269  0.00  0.00           C 0
+ATOM   1641  ND2 ASN C  35      27.263  27.164  16.370  0.07  3.28           N 0
+ATOM   2116  OE1 GLU D  11      28.254  21.950  17.785  0.68  6.43           O 0
+ATOM   2687   NZ LYS D  80      29.058  26.250  12.398  0.69  1.09           N 0
+ATOM   1633    O GLY C  34      25.872  27.834  13.051  0.31  2.14           O 0
+ATOM   2475  OE2 GLU D  53      26.261  23.824   7.915  0.46  7.50           O 0
+ATOM   2121    O THR D  12      20.605  20.409  13.864  0.61  7.50           O 0
+ATOM   2436  OD2 ASP D  48      21.797  19.126  10.005  0.48  2.14           O 0
+ATOM   2458  CG2 THR D  51      21.259  22.550   7.996  0.00  0.00           C 0
+ATOM   1640  OD1 ASN C  35      29.185  27.464  15.231  0.55  1.07           O 0
+TER
+END

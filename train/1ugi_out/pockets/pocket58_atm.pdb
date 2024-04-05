@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.2424
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1521
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5085
+HEADER 5  - Mean B-factor of pocket residues  : 0.6060
+HEADER 6  - Hydrophobicity Score              : 11.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.8189
+HEADER 10 - Pocket volume (convex hull)       : 6.4732
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2381
+ATOM   1899   NZ LYS C  66      33.487  32.639  26.298  0.35  7.66           N 0
+ATOM   1898   CE LYS C  66      34.768  33.257  26.747  0.00  0.00           C 0
+ATOM   2759  OD2 ASP E   6      35.615  25.100  29.688  0.00  0.00           O 0
+ATOM   2043  OXT LEU C  84      37.909  29.075  22.473  0.45  7.50           O 0
+ATOM   2756   CB ASP E   6      34.471  26.419  31.304  0.00  0.00           C 0
+ATOM   2737  ND2 ASN E   3      30.650  26.146  29.268  0.55  6.56           N 0
+ATOM   2792   CE LYS E  10      31.881  34.220  31.850  0.00  0.00           C 0
+ATOM   2791   CD LYS E  10      31.731  33.246  33.007  0.00  0.00           C 0
+ATOM   2755    O ASP E   6      33.469  28.558  33.454  0.44  5.36           O 0
+ATOM   2790   CG LYS E  10      33.057  32.961  33.691  0.00  0.00           C 0
+ATOM   2789   CB LYS E  10      33.129  31.541  34.227  0.00  0.00           C 0
+ATOM   2765  CG1 ILE E   7      29.087  27.318  31.684  0.00  0.00           C 0
+ATOM   2754    C ASP E   6      33.087  27.431  33.126  0.00  0.00           C 0
+ATOM   2760    N ILE E   7      31.800  27.096  33.051  0.00  0.00           N 0
+ATOM   2761   CA ILE E   7      30.771  28.029  33.508  0.00  0.00           C 0
+TER
+END

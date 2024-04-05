@@ -1,0 +1,53 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0781
+HEADER 1  - Drug Score                        : 0.5119
+HEADER 2  - Number of alpha spheres           :    52
+HEADER 3  - Mean alpha-sphere radius          : 3.8518
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4586
+HEADER 5  - Mean B-factor of pocket residues  : 0.5069
+HEADER 6  - Hydrophobicity Score              : 68.8462
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6923
+HEADER 9  - Pocket volume (Monte Carlo)       : 345.8386
+HEADER 10 - Pocket volume (convex hull)       : 43.3262
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 47.6923
+HEADER 13 - Number of apolar alpha sphere     :    52
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   4504  CD1 ILE B 255      21.430   9.892   9.646  0.00  0.00           C 0
+ATOM   3685    O ALA B 132      17.409  14.660  14.360  0.47  1.07           O 0
+ATOM   4398  CD1 LEU B 226      15.524  10.819  10.378  0.00  0.00           C 0
+ATOM   4371   CB TYR B 223      18.406   8.059  13.261  0.00  0.00           C 0
+ATOM   4373  CD1 TYR B 223      19.254   7.701  10.906  0.00  0.00           C 0
+ATOM   4368   CA TYR B 223      16.919   8.432  13.296  0.00  0.00           C 0
+ATOM   4526  CG1 VAL B 258      25.695   8.831  14.331  0.00  0.00           C 0
+ATOM   4377   CZ TYR B 223      19.632   5.494  10.026  0.00  0.00           C 0
+ATOM   4374  CD2 TYR B 223      18.798   5.777  12.257  0.00  0.00           C 0
+ATOM   4376  CE2 TYR B 223      19.201   4.944  11.221  0.00  0.00           C 0
+ATOM   4375  CE1 TYR B 223      19.660   6.873   9.859  0.00  0.00           C 0
+ATOM   3683   CA ALA B 132      19.717  14.643  15.008  0.00  0.00           C 0
+ATOM   4372   CG TYR B 223      18.820   7.165  12.118  0.00  0.00           C 0
+ATOM   3708   CB ARG B 135      17.628  15.353  10.900  0.00  0.00           C 0
+ATOM   4470  CG2 THR B 251      19.253  12.516   6.668  0.00  0.00           C 0
+ATOM   4503  CG2 ILE B 255      23.681   8.227   8.232  0.00  0.00           C 0
+ATOM   4366   SG CYS B 222      16.373  12.619  15.556  0.00  0.00           S 0
+ATOM   4495  CG1 VAL B 254      22.961  14.279  11.403  0.00  0.00           C 0
+ATOM   3709   CG ARG B 135      18.988  16.014  10.806  0.00  0.00           C 0
+ATOM   4533  CG1 ILE B 259      27.218   6.483  10.323  0.00  0.00           C 0
+ATOM   4378   OH TYR B 223      20.050   4.660   9.012  0.00  0.00           O 0
+ATOM   4535  CD1 ILE B 259      26.752   6.392   8.912  0.00  0.00           C 0
+ATOM   3686   CB ALA B 132      20.034  13.534  16.014  0.00  0.00           C 0
+ATOM   4337  CG2 ILE B 219      22.690   9.825  16.576  0.00  0.00           C 0
+ATOM   4334    O ILE B 219      19.971   8.941  15.964  0.62  1.07           O 0
+ATOM   4348  CE2 PHE B 220      23.261   5.106  17.068  0.00  0.00           C 0
+ATOM   4558  CD1 LEU B 262      27.748   5.119  15.389  0.00  0.00           C 0
+ATOM   4527  CG2 VAL B 258      25.315  11.261  14.159  0.00  0.00           C 0
+ATOM   4346  CD2 PHE B 220      21.884   5.327  17.008  0.00  0.00           C 0
+ATOM   4500    O ILE B 255      26.130   9.344  10.046  0.00  0.00           O 0
+ATOM   4525   CB VAL B 258      25.964  10.064  13.499  0.00  0.00           C 0
+TER
+END

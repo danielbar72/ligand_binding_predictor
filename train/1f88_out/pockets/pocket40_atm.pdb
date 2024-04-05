@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.1637
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0547
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5119
+HEADER 5  - Mean B-factor of pocket residues  : 0.0520
+HEADER 6  - Hydrophobicity Score              : 77.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 384.8813
+HEADER 10 - Pocket volume (convex hull)       : 8.9112
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.9048
+ATOM   2345  CG1 VAL A 300      53.578  16.699   4.951  0.00  0.00           C 0
+ATOM   3012  CD1 LEU B  46      51.762  13.099   9.611  0.00  0.00           C 0
+ATOM    405  CD1 LEU A  50      49.146  16.458   6.154  0.00  0.00           C 0
+ATOM   2326   CB THR A 297      53.183  11.247   1.711  0.00  0.00           C 0
+ATOM    382  CD2 LEU A  47      49.919  14.517   1.356  0.00  0.00           C 0
+ATOM   2327  OG1 THR A 297      54.088  10.127   1.667  0.88  7.50           O 0
+ATOM   2305  CE1 PHE A 294      52.911   6.257   2.085  0.00  0.00           C 0
+ATOM   2956   CE MET B  39      55.739   7.682  11.903  0.00  0.00           C 0
+ATOM   2351   CB TYR A 301      57.545  12.459   5.302  0.00  0.00           C 0
+ATOM   2344   CB VAL A 300      53.993  16.119   3.611  0.00  0.00           C 0
+ATOM   2328  CG2 THR A 297      51.768  10.795   1.483  0.00  0.00           C 0
+ATOM   2347    N TYR A 301      56.846  14.578   4.316  0.00  0.00           N 0
+ATOM   2325    O THR A 297      55.440  13.295   1.809  0.00  0.00           O 0
+ATOM   2379  CG1 VAL A 304      56.760  14.226  10.335  0.00  0.00           C 0
+ATOM   2380  CG2 VAL A 304      55.881  15.989   8.841  0.00  0.00           C 0
+ATOM   2348   CA TYR A 301      57.530  13.967   5.440  0.00  0.00           C 0
+ATOM   3013  CD2 LEU B  46      52.134  15.552   9.221  0.00  0.00           C 0
+TER
+END

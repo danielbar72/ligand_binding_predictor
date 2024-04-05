@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0168
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7833
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5046
+HEADER 5  - Mean B-factor of pocket residues  : 0.2895
+HEADER 6  - Hydrophobicity Score              : 8.8000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 339.5847
+HEADER 10 - Pocket volume (convex hull)       : 19.1942
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM    541  NE1 TRP A  68       1.340  -9.475  -5.916  0.63  4.37           N 0
+ATOM    544  CZ2 TRP A  68       0.540 -10.092  -3.626  0.00  0.00           C 0
+ATOM    262   CB ASN A  35      -3.005  -9.692  -2.004  0.00  0.00           C 0
+ATOM    269    O LYS A  36      -1.961 -13.588  -4.775  0.47  5.36           O 0
+ATOM    289  OE1 GLU A  38      -0.620 -12.867 -11.401  0.66  5.36           O 0
+ATOM    288   CD GLU A  38      -1.361 -13.680 -10.808  0.00  0.00           C 0
+ATOM    287   CG GLU A  38      -0.957 -14.222  -9.449  0.00  0.00           C 0
+ATOM    660   CE MET A  83      -0.074  -6.387  -3.029  0.00  0.00           C 0
+ATOM    265  ND2 ASN A  35      -4.982  -8.539  -2.734  0.48  8.75           N 0
+ATOM    264  OD1 ASN A  35      -3.594  -7.459  -1.354  0.60  2.14           O 0
+ATOM   1335   CDALYS B  82      -3.707  -2.210  -5.916  0.00  0.00           C 0
+ATOM    658   CG MET A  83      -0.812  -3.795  -2.441  0.00  0.00           C 0
+ATOM   1337   CEALYS B  82      -5.213  -2.381  -5.835  0.00  0.00           C 0
+ATOM   1339   NZALYS B  82      -5.860  -2.519  -7.168  0.00  0.00           N 0
+ATOM    741   NZ LYS B  10      -9.053  -3.883  -6.468  0.00  0.00           N 0
+ATOM    749  OE1 GLU B  11      -8.666  -3.673  -4.010  0.38  2.14           O 0
+ATOM    750  OE2 GLU B  11      -8.477  -4.315  -1.900  0.33  4.29           O 0
+ATOM   1331   CBALYS B  82      -3.491  -0.230  -4.335  0.00  0.00           C 0
+ATOM    263   CG ASN A  35      -3.887  -8.462  -1.996  0.00  0.00           C 0
+ATOM   1253  CD1 ILE B  72      -7.185  -2.344  -0.212  0.00  0.00           C 0
+ATOM   1313   CE LYS B  80      -4.190  -5.232   1.102  0.00  0.00           C 0
+ATOM   1311   CG LYS B  80      -2.624  -3.294   1.152  0.00  0.00           C 0
+TER
+END

@@ -26,6 +26,9 @@ def calculate_local_density(pdb_file):
                 c_alfa = atom
                 break
 
+        if c_alfa is None:
+            continue
+        
         neighbors = ns.search(c_alfa.get_coord(), 10.0)  # Adjust the distance cutoff as needed
         local_density = len(neighbors) / (4/3 * 3.14 * 10.0**3)  # Adjust the volume calculation as needed
 
