@@ -203,6 +203,9 @@ def main(pdb_input_file):
             print("Residues: ")
         for r in residues:
             print("     ", r)
+            
+    output_file = color_residues(pdb_input_file)
+    
 
 if __name__ == "__main__":
 
