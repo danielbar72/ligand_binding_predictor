@@ -176,7 +176,7 @@ from Bio.PDB import PDBParser, PDBIO
 import matplotlib.colors as mpl_colors
 
 
-def color_residues(pdb_input_file):
+def color_residues(pdb_input_file, model):
     # Load the PDB file
     parser = PDBParser()
     structure = parser.get_structure("protein", pdb_input_file)
