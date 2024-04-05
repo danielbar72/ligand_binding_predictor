@@ -1,0 +1,11 @@
+For our project, we have decided on a Machine Learning approach, where we use the Random Forest Classifier algorithm and train it to predict ligand-binding sites in proteins based on features such as hydrophobicity, local density, protein pockets, and distance to ligand. 
+
+The identification and characterization of pockets and cavities of a protein structure is an important feature to consider since they often serve as binding sites as ligands such as small molecules, ions, or other proteins. In order to obtain this feature, we utilized the fpocket program, which is a pocket detection algorithm based on Voronoi tessellation.
+
+Local density of residues is another relevant feature to include in our program, since it provies information about the residues' spatial arrangement and proximity to ligands, enhancing the accuracy of the prediction algorithm. Binding sites often have distinct spatial and structural features such as pockets or cavities. Residues located within these regions tend to have higher local density due to the atoms packing closer to shape the cavity. 
+
+We also included residue hydrophobicity since it is a key physicochemical property of residues that could help the algorithm differentiate between residues in possible binding sites, from those in non-binding regions of the protein. Generally, hydrophobic residues tend to be in the protein core, where solvent accessibility is low, while polar residues tend to be in the surface, where solvent accessibility is high. Hydrophobicity then not only gives insight into the structure of the protein and possible binding site, but also implies solvent accessibility which enhances the prediction algorithm. 
+
+The proximity-to-ligand feature was used as the true positives in the dataset. The residues that were found within a certain distance to the ligand were considered positive instances, while those further away were seen as not involved in interactions and considered negative instances. By using this criteria, we provide a reliable basis for training the predictive model.
+
+
