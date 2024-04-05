@@ -10,7 +10,6 @@ import os, sys
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
 from Bio.PDB import PDBParser, PDBIO
-from Bio.PDB.Color import Color
 import warnings
 
 def load_pdb_file(file_path):
@@ -174,6 +173,10 @@ def predict_binding_sites(pdb_file, model):
     return {k: ret_dict[k] for k in sorted(ret_dict.keys())}
 
 
+from Bio.PDB import PDBParser, PDBIO
+import matplotlib.colors as mpl_colors
+
+
 def color_residues(pdb_input_file):
     # Load the PDB file
     parser = PDBParser()
@@ -182,7 +185,7 @@ def color_residues(pdb_input_file):
     # Define the residues to be highlighted
     predicted_sites = predict_binding_sites(pdb_input_file, model)
     for pocket_num, residues in predicted_sites.items():
-        if pocket_num == 1:
+        if pocket_num == 100:
             for r in residues:
                 highlighted_residues.append(r[1])
 
@@ -198,6 +201,7 @@ def color_residues(pdb_input_file):
     io = PDBIO()
     io.set_structure(structure)
     io.save("output.pdb")
+
 
 # Main function
 def main(pdb_input_file):
