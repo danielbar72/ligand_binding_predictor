@@ -233,7 +233,7 @@ def main(pdb_input_file):
         for r in residues:
             print("     ", r)
             
-    output_file = color_residues(pdb_input_file)
+    output_file = color_residues(pdb_input_file, model)
     
 
 if __name__ == "__main__":
