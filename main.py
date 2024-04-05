@@ -9,6 +9,8 @@ import os, sys
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
 from Bio.PDB import PDBParser, PDBIO
+from Bio.PDB.Atom import Atom
+from Bio.PDB.Residue import Residue
 import warnings
 
 def load_pdb_file(file_path):
@@ -131,8 +133,7 @@ def train_model(X_train, y_train, X_test, y_test):
     return rf_classifier
 
 def predict_binding_sites(pdb_file, model):
-    # Load PDB file and extract features
-    structure = load_pdb_file(pdb_file)
+
     df = extract_features(pdb_file)
 
     # Predict binding sites using the trained model
@@ -175,10 +176,6 @@ def predict_binding_sites(pdb_file, model):
 #from Bio.PDB import PDBParser, PDBIO
 #import matplotlib.colors as mpl_colors
 
-
-from Bio.PDB import PDBParser, PDBIO
-from Bio.PDB.Atom import Atom
-from Bio.PDB.Residue import Residue
 
 def color_residues(pdb_input_file, model):
     # Load the PDB file
@@ -235,6 +232,8 @@ def main(pdb_input_file):
 
     
     predicted_sites = predict_binding_sites(pdb_input_file, model)
+
+    commands = ["select:"]
     print("Predicted Binding Sites:")
     for pocket_num, residues in predicted_sites.items():
         if pocket_num == 100:
@@ -244,8 +243,15 @@ def main(pdb_input_file):
             print("Residues: ")
         for r in residues:
             print("     ", r)
-            
-    output_file = color_residues(pdb_input_file, model)
+            commands[0] += r[3:] + ","
+
+    commands[0] = commands[0][:len(commands[0]) - 1]
+    commands.append("\ncolor red sel")
+
+    with open("chimera_cmds.cmd", "w") as file:
+        for c in commands:
+            file.write(c)
+    
     
 
 if __name__ == "__main__":
