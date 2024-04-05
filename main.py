@@ -193,6 +193,7 @@ def color_residues(pdb_input_file, model):
         if pocket_num == 1:
             for r in residues:
                 highlighted_residues.append(r[1])
+    print(highlighted_residues)
 
     # Color the residues
     for current_model in structure:
