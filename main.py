@@ -190,8 +190,8 @@ def color_residues(pdb_input_file, model):
 
 
     # Color the residues
-    for model in structure:
-        for chain in model:
+    for current_model in structure:
+        for chain in current_model:
             for residue in chain:
                 if residue.id[1] in highlighted_residues:
                     residue.color = Color(1, 0, 0)  # Red
