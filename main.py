@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score
 from local_densities import calculate_local_density
 from pockets import find_pockets
 from neighboring_final import residues_within_distance
+from color_pdb import color_residues
 import os, sys
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
